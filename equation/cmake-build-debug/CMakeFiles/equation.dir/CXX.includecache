@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/dev/I.Lab/equation/SolveQuadraticEquationFunctions.h
+stdio.h
+-
+assert.h
+-
+math.h
+-
+
+C:/dev/I.Lab/equation/UnitTest.cpp
+stdio.h
+-
+assert.h
+-
+math.h
+-
+SolveQuadraticEquationFunctions.h
+C:/dev/I.Lab/equation/SolveQuadraticEquationFunctions.h
+
