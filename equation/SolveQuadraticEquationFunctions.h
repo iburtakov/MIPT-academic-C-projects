@@ -1,7 +1,3 @@
-//
-// Created by Илья on 05.10.2019.
-//
-
 #ifndef EQUATION_MAIN_HEADER_H
 #define EQUATION_MAIN_HEADER_H
 

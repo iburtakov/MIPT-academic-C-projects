@@ -2,28 +2,33 @@
 /*!
 //  \file Encyclopedia of Russian life.cpp
 //
+//
 //  \brief Main file which contains main body of the program
 */
 /*!
 //  \mainpage Description
+
+// - main.cpp
+// - FileIO.cpp
+// - Sort.cpp
 //
 //  \author Ilya Burtakov
 //  \version 1.0
-//  \date September 2019
+//  \date October 2019
 //
 //  This project gets text from file, sort its lines  by alphabet, by the end by
 //  alphabet, and then inputes sorted texts and its (inputed) copy
 */
 //------------------------------------------------------------------------------
+#define DEBUG
 
 #include <stdio.h>
 #include <assert.h>
 #include <stdlib.h>
-
-//#include "FileIO.cpp"
-//#include "Sort.cpp"
+#include "UNITTESTS.h"
 #include "FileIO.h"
 #include "Sort.h"
+
 
 int main ()
 {
@@ -40,6 +45,11 @@ int main ()
     /* creates text and finds it's size and lines */
     char **text = createTextFromFile ("Input.txt", &tSize, &tLines);
 
+    //UNITTEST
+    UNITTEST(tSize, ==, 28381);
+    UNITTEST(tLines, ==, 756);
+    //UNITTEST
+
     /* creates a copy of the text */
     char **textCopy = createTextCopy (text, tLines);
 
@@ -50,19 +60,20 @@ int main ()
     qsort(text, tLines, sizeof (text), strCompare);
 
     /* outputs sorted text into .txt file */
-    int checkFirst = foutputText(text, "Sorted.txt");
+    int checkFirst = foutputText(text, "FullEndFile.txt");
     assert (checkFirst == 0);
 
     /* sorts text by it's end */
     qsort(text, tLines, sizeof (text), strCompareFromEnd);
 
     /* outputs text into .txt file*/
-    int checkEnd = foutputText (text, "SortedFromEnd.txt");
+    int checkEnd = foutputText (text, "FullEndFile.txt");
     assert (checkEnd == 0);
 
     /* outputs created copy into .txt file */
-    int checkCopy = foutputText (textCopy, "Copy.txt");
+    int checkCopy = foutputText (textCopy, "FullEndFile.txt");
     assert (checkCopy == 0);
+
 
     /* frees used memory */
     memset (text, 0, tLines);
@@ -74,10 +85,9 @@ int main ()
     textCopy = NULL;
 
     memset (buf, 0, tSize);
-    free (buf - 1);
+    free (buf);
     buf = NULL;
 
-    /* you are great */
     printf (" # Sorting has succeeded\n");
 
     return 0;

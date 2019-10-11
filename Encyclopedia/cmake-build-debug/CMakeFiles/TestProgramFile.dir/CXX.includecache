@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/dev/I.Lab/Encyclopedia/FileIO.h
+string.h
+-
+assert.h
+-
+stdio.h
+-
+stdlib.h
+-
+
+C:/dev/I.Lab/Encyclopedia/Sort.h
+ctype.h
+-
+string.h
+-
+
+C:/dev/I.Lab/Encyclopedia/UNITTESTS.h
+
+C:/dev/I.Lab/Encyclopedia/main.cpp
+stdio.h
+-
+assert.h
+-
+stdlib.h
+-
+UNITTESTS.h
+C:/dev/I.Lab/Encyclopedia/UNITTESTS.h
+FileIO.h
+C:/dev/I.Lab/Encyclopedia/FileIO.h
+Sort.h
+C:/dev/I.Lab/Encyclopedia/Sort.h
+

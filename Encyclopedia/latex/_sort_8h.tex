@@ -1,0 +1,64 @@
+\hypertarget{_sort_8h}{}\doxysection{C\+:/dev/I.Lab/\+Encyclopedia/\+Sort.h File Reference}
+\label{_sort_8h}\index{C:/dev/I.Lab/Encyclopedia/Sort.h@{C:/dev/I.Lab/Encyclopedia/Sort.h}}
+{\ttfamily \#include $<$ctype.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{_sort_8h_a05a9dd4ad3b47f34f03fd2c75c2e0d8d}{str\+Length}} (char $\ast$str)
+\item 
+int \mbox{\hyperlink{_sort_8h_a0bd23f5de2f9079e2070eff20b58df41}{str\+Compare}} (const void $\ast$line\+One, const void $\ast$line\+Two)
+\item 
+int \mbox{\hyperlink{_sort_8h_a83409c46d3de1f513a5240048af2c731}{str\+Compare\+From\+End}} (const void $\ast$line\+One, const void $\ast$line\+Two)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_sort_8h_a0bd23f5de2f9079e2070eff20b58df41}\label{_sort_8h_a0bd23f5de2f9079e2070eff20b58df41}} 
+\index{Sort.h@{Sort.h}!strCompare@{strCompare}}
+\index{strCompare@{strCompare}!Sort.h@{Sort.h}}
+\doxysubsubsection{\texorpdfstring{strCompare()}{strCompare()}}
+{\footnotesize\ttfamily int str\+Compare (\begin{DoxyParamCaption}\item[{const void $\ast$}]{line\+One,  }\item[{const void $\ast$}]{line\+Two }\end{DoxyParamCaption})}
+
+Comparator, compares two strings from the beginning alphabetically ignoring non letters
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$line\+One,$\ast$line\+Two} & pointers to strings that should be compared \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+negative number if line\+One $<$ line\+Two, 0 if =, else a positive number 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_sort_8h_a83409c46d3de1f513a5240048af2c731}\label{_sort_8h_a83409c46d3de1f513a5240048af2c731}} 
+\index{Sort.h@{Sort.h}!strCompareFromEnd@{strCompareFromEnd}}
+\index{strCompareFromEnd@{strCompareFromEnd}!Sort.h@{Sort.h}}
+\doxysubsubsection{\texorpdfstring{strCompareFromEnd()}{strCompareFromEnd()}}
+{\footnotesize\ttfamily int str\+Compare\+From\+End (\begin{DoxyParamCaption}\item[{const void $\ast$}]{line\+One,  }\item[{const void $\ast$}]{line\+Two }\end{DoxyParamCaption})}
+
+Comparator which compares two strings from the end alphabetically ignoring non letters
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$line\+One,$\ast$line\+Two} & pointers to strings that should be compared \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+negative number if line\+One $<$ line\+Two, 0 if =, else a positive number 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_sort_8h_a05a9dd4ad3b47f34f03fd2c75c2e0d8d}\label{_sort_8h_a05a9dd4ad3b47f34f03fd2c75c2e0d8d}} 
+\index{Sort.h@{Sort.h}!strLength@{strLength}}
+\index{strLength@{strLength}!Sort.h@{Sort.h}}
+\doxysubsubsection{\texorpdfstring{strLength()}{strLength()}}
+{\footnotesize\ttfamily int str\+Length (\begin{DoxyParamCaption}\item[{char $\ast$}]{str }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Finds the length of the string
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$str} & Pointers to string which length should be found \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Length of the string 
+\end{DoxyReturn}

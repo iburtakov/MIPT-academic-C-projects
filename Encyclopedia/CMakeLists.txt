@@ -3,4 +3,4 @@ project(TestProgramFile)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(TestProgramFile main.cpp FileIO.cpp Sort.cpp)
+add_executable(TestProgramFile main.cpp FileIO.cpp Sort.cpp UnitTest.h)

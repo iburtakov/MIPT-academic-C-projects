@@ -81,21 +81,21 @@ int bufInLines (char *buf, int textSize)
 //------------------------------------------------------------------------------
 
 int foutputText (char **text, const char *name)
-{
-    assert (text);
-    assert (name);
-
-    /* opens file */
-    FILE *file = fopen (name, "wb");
-    assert (file);
-
-    /* inputs text into file by lines */
-    for (int lines = 0; text[lines] != 0; lines ++)
     {
-        fprintf (file, "%s\n", text[lines]);
-    }
+        assert (text);
+        assert (name);
 
-    fclose (file);
+        /* opens file */
+        FILE *file = fopen (name, "ab");
+        assert (file);
+
+        /* inputs text into file by lines */
+        for (int lines = 0; text[lines] != 0; lines ++)
+        {
+            fprintf (file, "%s\n", text[lines]);
+        }
+
+        fclose (file);
 
     return 0;
 }
@@ -215,7 +215,7 @@ char **createTextFromFile (const char *fileName, int *currentFileSize, \
     /* creates memory for text buff with \0 in the beginning*/
     char *buf = (char *)calloc(*currentFileSize + 1, sizeof (buf));
     assert (buf);
-    buf ++;
+    buf++;
 
     /* puts text from file into buff */
     int readSize = fread (buf, sizeof (char), *currentFileSize, file);

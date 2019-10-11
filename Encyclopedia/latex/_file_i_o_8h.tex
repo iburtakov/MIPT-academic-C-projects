@@ -1,0 +1,119 @@
+\hypertarget{_file_i_o_8h}{}\doxysection{C\+:/dev/I.Lab/\+Encyclopedia/\+File\+IO.h File Reference}
+\label{_file_i_o_8h}\index{C:/dev/I.Lab/Encyclopedia/FileIO.h@{C:/dev/I.Lab/Encyclopedia/FileIO.h}}
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$assert.\+h$>$}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{_file_i_o_8h_ac46f9758cf2735ae1e48f0517925739e}{file\+Size}} (F\+I\+LE $\ast$file)
+\item 
+int \mbox{\hyperlink{_file_i_o_8h_a07364b67a4097713fac6b0eecff9360d}{text\+In\+Lines}} (char $\ast$$\ast$text, int text\+Size)
+\item 
+int \mbox{\hyperlink{_file_i_o_8h_a6b8c7a3efee28a8869d99e76fc926364}{foutput\+Text}} (char $\ast$$\ast$text, const char $\ast$name=\char`\"{}out.\+txt\char`\"{})
+\item 
+char $\ast$$\ast$ \mbox{\hyperlink{_file_i_o_8h_aaf8d653d663456eee16928ab85dec496}{create\+Text\+Copy}} (char $\ast$$\ast$text, int lines)
+\item 
+char $\ast$$\ast$ \mbox{\hyperlink{_file_i_o_8h_a52ba3f0127be0d81f819a74b6030ddbe}{create\+Text}} (char $\ast$buf, int lines, int text\+Size)
+\item 
+char $\ast$$\ast$ \mbox{\hyperlink{_file_i_o_8h_aec4ccf79950e023e6dfdc8becc36ded0}{create\+Text\+From\+File}} (const char $\ast$file\+Name, int $\ast$current\+File\+Size=0, int $\ast$current\+File\+Lines=0)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_file_i_o_8h_a52ba3f0127be0d81f819a74b6030ddbe}\label{_file_i_o_8h_a52ba3f0127be0d81f819a74b6030ddbe}} 
+\index{FileIO.h@{FileIO.h}!createText@{createText}}
+\index{createText@{createText}!FileIO.h@{FileIO.h}}
+\doxysubsubsection{\texorpdfstring{createText()}{createText()}}
+{\footnotesize\ttfamily char$\ast$$\ast$ create\+Text (\begin{DoxyParamCaption}\item[{char $\ast$}]{buf,  }\item[{int}]{lines,  }\item[{int}]{text\+Size }\end{DoxyParamCaption})}
+
+Create text (array of strings) from buf
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$buf} & Pointer to buf from witch text should created \\
+\hline
+{\em lines} & The amount of lines in future text (array length) \\
+\hline
+{\em text\+Size} & The size of the buf \\
+\hline
+\end{DoxyParams}
+\begin{DoxyWarning}{Warning}
+The text memory should be freed 
+\end{DoxyWarning}
+\begin{DoxyReturn}{Returns}
+Created text 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_file_i_o_8h_aaf8d653d663456eee16928ab85dec496}\label{_file_i_o_8h_aaf8d653d663456eee16928ab85dec496}} 
+\index{FileIO.h@{FileIO.h}!createTextCopy@{createTextCopy}}
+\index{createTextCopy@{createTextCopy}!FileIO.h@{FileIO.h}}
+\doxysubsubsection{\texorpdfstring{createTextCopy()}{createTextCopy()}}
+{\footnotesize\ttfamily char$\ast$$\ast$ create\+Text\+Copy (\begin{DoxyParamCaption}\item[{char $\ast$$\ast$}]{text,  }\item[{int}]{lines }\end{DoxyParamCaption})}
+
+Create the copy of the text (array of strings)
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$$\ast$text} & Pointer to text (array of strings) \\
+\hline
+{\em lines} & The amount of lines in text (array length) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyWarning}{Warning}
+The text copy memory should be freed 
+\end{DoxyWarning}
+\begin{DoxyReturn}{Returns}
+Text copy 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_file_i_o_8h_aec4ccf79950e023e6dfdc8becc36ded0}\label{_file_i_o_8h_aec4ccf79950e023e6dfdc8becc36ded0}} 
+\index{FileIO.h@{FileIO.h}!createTextFromFile@{createTextFromFile}}
+\index{createTextFromFile@{createTextFromFile}!FileIO.h@{FileIO.h}}
+\doxysubsubsection{\texorpdfstring{createTextFromFile()}{createTextFromFile()}}
+{\footnotesize\ttfamily char$\ast$$\ast$ create\+Text\+From\+File (\begin{DoxyParamCaption}\item[{const char $\ast$}]{file\+Name,  }\item[{int $\ast$}]{current\+File\+Size,  }\item[{int $\ast$}]{current\+File\+Lines }\end{DoxyParamCaption})}
+
+Create text (array of strings) from .txt file and gives file\+Size and file\+Lines (amount of lines) if needed
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$file\+Name} & The name of file from witch we should get text \\
+\hline
+{\em current\+File\+Size} & The address of var where File\+Size should be putted \\
+\hline
+{\em current\+Text\+Size} & The address of var where File\+Lines should be putted \\
+\hline
+\end{DoxyParams}
+\begin{DoxyWarning}{Warning}
+The text memory and text\mbox{[}0\mbox{]} memory should be freed 
+\end{DoxyWarning}
+\begin{DoxyReturn}{Returns}
+Created text 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_file_i_o_8h_ac46f9758cf2735ae1e48f0517925739e}\label{_file_i_o_8h_ac46f9758cf2735ae1e48f0517925739e}} 
+\index{FileIO.h@{FileIO.h}!fileSize@{fileSize}}
+\index{fileSize@{fileSize}!FileIO.h@{FileIO.h}}
+\doxysubsubsection{\texorpdfstring{fileSize()}{fileSize()}}
+{\footnotesize\ttfamily int file\+Size (\begin{DoxyParamCaption}\item[{F\+I\+LE $\ast$}]{file }\end{DoxyParamCaption})}
+
+Function used to find the file length in bytes
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$file} & Pointer to file which length should be find \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+file Length of the file in bytes 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_file_i_o_8h_a6b8c7a3efee28a8869d99e76fc926364}\label{_file_i_o_8h_a6b8c7a3efee28a8869d99e76fc926364}} 
+\index{FileIO.h@{FileIO.h}!foutputText@{foutputText}}
+\index{foutputText@{foutputText}!FileIO.h@{FileIO.h}}
+\doxysubsubsection{\texorpdfstring{foutputText()}{foutputText()}}
+{\footnotesize\ttfamily int foutput\+Text (\begin{DoxyParamCaption}\item[{char $\ast$$\ast$}]{text,  }\item[{const char $\ast$}]{name = {\ttfamily \char`\"{}out.txt\char`\"{}} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_file_i_o_8h_a07364b67a4097713fac6b0eecff9360d}\label{_file_i_o_8h_a07364b67a4097713fac6b0eecff9360d}} 
+\index{FileIO.h@{FileIO.h}!textInLines@{textInLines}}
+\index{textInLines@{textInLines}!FileIO.h@{FileIO.h}}
+\doxysubsubsection{\texorpdfstring{textInLines()}{textInLines()}}
+{\footnotesize\ttfamily int text\+In\+Lines (\begin{DoxyParamCaption}\item[{char $\ast$$\ast$}]{text,  }\item[{int}]{text\+Size }\end{DoxyParamCaption})}
+

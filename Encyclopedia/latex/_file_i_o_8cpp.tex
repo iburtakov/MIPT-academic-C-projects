@@ -1,0 +1,132 @@
+\hypertarget{_file_i_o_8cpp}{}\doxysection{C\+:/dev/I.Lab/\+Encyclopedia/\+File\+IO.cpp File Reference}
+\label{_file_i_o_8cpp}\index{C:/dev/I.Lab/Encyclopedia/FileIO.cpp@{C:/dev/I.Lab/Encyclopedia/FileIO.cpp}}
+{\ttfamily \#include \char`\"{}File\+I\+O.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{_file_i_o_8cpp_ac46f9758cf2735ae1e48f0517925739e}{file\+Size}} (F\+I\+LE $\ast$file)
+\item 
+int \mbox{\hyperlink{_file_i_o_8cpp_aec27688a274578fe2dfa546cb4a36927}{buf\+In\+Lines}} (char $\ast$buf, int text\+Size)
+\item 
+int \mbox{\hyperlink{_file_i_o_8cpp_a14cf8721b54e5cbef713381711bd9b52}{foutput\+Text}} (char $\ast$$\ast$text, const char $\ast$name)
+\item 
+char $\ast$$\ast$ \mbox{\hyperlink{_file_i_o_8cpp_a662196007a4f51f65786ad060e66ea7d}{create\+Text\+Copy}} (char $\ast$$\ast$text, int lines)
+\item 
+char $\ast$$\ast$ \mbox{\hyperlink{_file_i_o_8cpp_a6b06ec862045cb75d64a1d232d40476b}{create\+Text}} (char $\ast$buf, int lines, int text\+Size)
+\item 
+char $\ast$$\ast$ \mbox{\hyperlink{_file_i_o_8cpp_a13770132e3ecc799dd37bb21934dd778}{create\+Text\+From\+File}} (const char $\ast$file\+Name, int $\ast$current\+File\+Size, int $\ast$current\+File\+Lines)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+File which contains functions for file input and output 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_file_i_o_8cpp_aec27688a274578fe2dfa546cb4a36927}\label{_file_i_o_8cpp_aec27688a274578fe2dfa546cb4a36927}} 
+\index{FileIO.cpp@{FileIO.cpp}!bufInLines@{bufInLines}}
+\index{bufInLines@{bufInLines}!FileIO.cpp@{FileIO.cpp}}
+\doxysubsubsection{\texorpdfstring{bufInLines()}{bufInLines()}}
+{\footnotesize\ttfamily int buf\+In\+Lines (\begin{DoxyParamCaption}\item[{char $\ast$}]{buf,  }\item[{int}]{text\+Size }\end{DoxyParamCaption})}
+
+Function used to change all ~\newline
+ to \textbackslash{}0 in buffer and to find the amount of lines in it
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$buf} & Pointer to buffer that should be changed \\
+\hline
+{\em textsize} & Size of the buffer \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Number of lines in buffer 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_file_i_o_8cpp_a6b06ec862045cb75d64a1d232d40476b}\label{_file_i_o_8cpp_a6b06ec862045cb75d64a1d232d40476b}} 
+\index{FileIO.cpp@{FileIO.cpp}!createText@{createText}}
+\index{createText@{createText}!FileIO.cpp@{FileIO.cpp}}
+\doxysubsubsection{\texorpdfstring{createText()}{createText()}}
+{\footnotesize\ttfamily char $\ast$$\ast$ create\+Text (\begin{DoxyParamCaption}\item[{char $\ast$}]{buf,  }\item[{int}]{lines,  }\item[{int}]{text\+Size }\end{DoxyParamCaption})}
+
+Create text (array of strings) from buf
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$buf} & Pointer to buf from witch text should created \\
+\hline
+{\em lines} & The amount of lines in future text (array length) \\
+\hline
+{\em text\+Size} & The size of the buf \\
+\hline
+\end{DoxyParams}
+\begin{DoxyWarning}{Warning}
+The text memory should be freed 
+\end{DoxyWarning}
+\begin{DoxyReturn}{Returns}
+Created text 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_file_i_o_8cpp_a662196007a4f51f65786ad060e66ea7d}\label{_file_i_o_8cpp_a662196007a4f51f65786ad060e66ea7d}} 
+\index{FileIO.cpp@{FileIO.cpp}!createTextCopy@{createTextCopy}}
+\index{createTextCopy@{createTextCopy}!FileIO.cpp@{FileIO.cpp}}
+\doxysubsubsection{\texorpdfstring{createTextCopy()}{createTextCopy()}}
+{\footnotesize\ttfamily char $\ast$$\ast$ create\+Text\+Copy (\begin{DoxyParamCaption}\item[{char $\ast$$\ast$}]{text,  }\item[{int}]{lines }\end{DoxyParamCaption})}
+
+Create the copy of the text (array of strings)
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$$\ast$text} & Pointer to text (array of strings) \\
+\hline
+{\em lines} & The amount of lines in text (array length) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyWarning}{Warning}
+The text copy memory should be freed 
+\end{DoxyWarning}
+\begin{DoxyReturn}{Returns}
+Text copy 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_file_i_o_8cpp_a13770132e3ecc799dd37bb21934dd778}\label{_file_i_o_8cpp_a13770132e3ecc799dd37bb21934dd778}} 
+\index{FileIO.cpp@{FileIO.cpp}!createTextFromFile@{createTextFromFile}}
+\index{createTextFromFile@{createTextFromFile}!FileIO.cpp@{FileIO.cpp}}
+\doxysubsubsection{\texorpdfstring{createTextFromFile()}{createTextFromFile()}}
+{\footnotesize\ttfamily char $\ast$$\ast$ create\+Text\+From\+File (\begin{DoxyParamCaption}\item[{const char $\ast$}]{file\+Name,  }\item[{int $\ast$}]{current\+File\+Size = {\ttfamily 0},  }\item[{int $\ast$}]{current\+File\+Lines = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+Create text (array of strings) from .txt file and gives file\+Size and file\+Lines (amount of lines) if needed
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$file\+Name} & The name of file from witch we should get text \\
+\hline
+{\em current\+File\+Size} & The address of var where File\+Size should be putted \\
+\hline
+{\em current\+Text\+Size} & The address of var where File\+Lines should be putted \\
+\hline
+\end{DoxyParams}
+\begin{DoxyWarning}{Warning}
+The text memory and text\mbox{[}0\mbox{]} memory should be freed 
+\end{DoxyWarning}
+\begin{DoxyReturn}{Returns}
+Created text 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_file_i_o_8cpp_ac46f9758cf2735ae1e48f0517925739e}\label{_file_i_o_8cpp_ac46f9758cf2735ae1e48f0517925739e}} 
+\index{FileIO.cpp@{FileIO.cpp}!fileSize@{fileSize}}
+\index{fileSize@{fileSize}!FileIO.cpp@{FileIO.cpp}}
+\doxysubsubsection{\texorpdfstring{fileSize()}{fileSize()}}
+{\footnotesize\ttfamily int file\+Size (\begin{DoxyParamCaption}\item[{F\+I\+LE $\ast$}]{file }\end{DoxyParamCaption})}
+
+Function used to find the file length in bytes
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$file} & Pointer to file which length should be find \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+file Length of the file in bytes 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_file_i_o_8cpp_a14cf8721b54e5cbef713381711bd9b52}\label{_file_i_o_8cpp_a14cf8721b54e5cbef713381711bd9b52}} 
+\index{FileIO.cpp@{FileIO.cpp}!foutputText@{foutputText}}
+\index{foutputText@{foutputText}!FileIO.cpp@{FileIO.cpp}}
+\doxysubsubsection{\texorpdfstring{foutputText()}{foutputText()}}
+{\footnotesize\ttfamily int foutput\+Text (\begin{DoxyParamCaption}\item[{char $\ast$$\ast$}]{text,  }\item[{const char $\ast$}]{name }\end{DoxyParamCaption})}
+
