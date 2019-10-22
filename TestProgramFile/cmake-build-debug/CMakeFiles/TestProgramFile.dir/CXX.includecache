@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/dev/I.Lab/TestProgramFile/main.cpp
+stdio.h
+-
+assert.h
+-
+stdlib.h
+-
+FileIO.cpp
+C:/dev/I.Lab/TestProgramFile/FileIO.cpp
+Sort.cpp
+C:/dev/I.Lab/TestProgramFile/Sort.cpp
+
