@@ -1,6 +1,10 @@
+
 cmake_minimum_required(VERSION 3.12)
-project(Stack)
+project(equation)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Stack main.cpp)
+add_executable(equation stack.c test_stack.c stack.h)
+
+
+

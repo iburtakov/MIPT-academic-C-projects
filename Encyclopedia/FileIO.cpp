@@ -81,7 +81,7 @@ int bufInLines (char *buf, int textSize)
 //------------------------------------------------------------------------------
 
 int foutputText (char **text, const char *name)
-    {
+{
         assert (text);
         assert (name);
 

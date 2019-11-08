@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/dev/MIPT-academic-C-projects/Stack/stack.c
+string.h
+-
+stdlib.h
+-
+stdio.h
+-
+assert.h
+-
+stack.h
+C:/dev/MIPT-academic-C-projects/Stack/stack.h
+
+C:/dev/MIPT-academic-C-projects/Stack/stack.h
+

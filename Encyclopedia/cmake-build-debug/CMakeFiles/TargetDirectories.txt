@@ -1,3 +1,0 @@
-C:/dev/I.Lab/Encyclopedia/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/dev/I.Lab/Encyclopedia/cmake-build-debug/CMakeFiles/TestProgramFile.dir
-C:/dev/I.Lab/Encyclopedia/cmake-build-debug/CMakeFiles/edit_cache.dir

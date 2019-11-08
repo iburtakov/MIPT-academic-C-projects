@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\dev\I.Lab\equation
+CMAKE_SOURCE_DIR = C:\dev\MIPT-academic-C-projects\equation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\dev\I.Lab\equation\cmake-build-debug
+CMAKE_BINARY_DIR = C:\dev\MIPT-academic-C-projects\equation\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/equation.dir/depend.make
@@ -58,42 +58,42 @@ include CMakeFiles/equation.dir/flags.make
 
 CMakeFiles/equation.dir/main.cpp.obj: CMakeFiles/equation.dir/flags.make
 CMakeFiles/equation.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\dev\I.Lab\equation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/equation.dir/main.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\equation.dir\main.cpp.obj -c C:\dev\I.Lab\equation\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\dev\MIPT-academic-C-projects\equation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/equation.dir/main.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\equation.dir\main.cpp.obj -c C:\dev\MIPT-academic-C-projects\equation\main.cpp
 
 CMakeFiles/equation.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/equation.dir/main.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dev\I.Lab\equation\main.cpp > CMakeFiles\equation.dir\main.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dev\MIPT-academic-C-projects\equation\main.cpp > CMakeFiles\equation.dir\main.cpp.i
 
 CMakeFiles/equation.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/equation.dir/main.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\dev\I.Lab\equation\main.cpp -o CMakeFiles\equation.dir\main.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\dev\MIPT-academic-C-projects\equation\main.cpp -o CMakeFiles\equation.dir\main.cpp.s
 
 CMakeFiles/equation.dir/SolveQuadraticEquationFunctions.cpp.obj: CMakeFiles/equation.dir/flags.make
 CMakeFiles/equation.dir/SolveQuadraticEquationFunctions.cpp.obj: ../SolveQuadraticEquationFunctions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\dev\I.Lab\equation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/equation.dir/SolveQuadraticEquationFunctions.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\equation.dir\SolveQuadraticEquationFunctions.cpp.obj -c C:\dev\I.Lab\equation\SolveQuadraticEquationFunctions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\dev\MIPT-academic-C-projects\equation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/equation.dir/SolveQuadraticEquationFunctions.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\equation.dir\SolveQuadraticEquationFunctions.cpp.obj -c C:\dev\MIPT-academic-C-projects\equation\SolveQuadraticEquationFunctions.cpp
 
 CMakeFiles/equation.dir/SolveQuadraticEquationFunctions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/equation.dir/SolveQuadraticEquationFunctions.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dev\I.Lab\equation\SolveQuadraticEquationFunctions.cpp > CMakeFiles\equation.dir\SolveQuadraticEquationFunctions.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dev\MIPT-academic-C-projects\equation\SolveQuadraticEquationFunctions.cpp > CMakeFiles\equation.dir\SolveQuadraticEquationFunctions.cpp.i
 
 CMakeFiles/equation.dir/SolveQuadraticEquationFunctions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/equation.dir/SolveQuadraticEquationFunctions.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\dev\I.Lab\equation\SolveQuadraticEquationFunctions.cpp -o CMakeFiles\equation.dir\SolveQuadraticEquationFunctions.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\dev\MIPT-academic-C-projects\equation\SolveQuadraticEquationFunctions.cpp -o CMakeFiles\equation.dir\SolveQuadraticEquationFunctions.cpp.s
 
 CMakeFiles/equation.dir/UnitTest.cpp.obj: CMakeFiles/equation.dir/flags.make
 CMakeFiles/equation.dir/UnitTest.cpp.obj: ../UnitTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\dev\I.Lab\equation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/equation.dir/UnitTest.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\equation.dir\UnitTest.cpp.obj -c C:\dev\I.Lab\equation\UnitTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\dev\MIPT-academic-C-projects\equation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/equation.dir/UnitTest.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\equation.dir\UnitTest.cpp.obj -c C:\dev\MIPT-academic-C-projects\equation\UnitTest.cpp
 
 CMakeFiles/equation.dir/UnitTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/equation.dir/UnitTest.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dev\I.Lab\equation\UnitTest.cpp > CMakeFiles\equation.dir\UnitTest.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\dev\MIPT-academic-C-projects\equation\UnitTest.cpp > CMakeFiles\equation.dir\UnitTest.cpp.i
 
 CMakeFiles/equation.dir/UnitTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/equation.dir/UnitTest.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\dev\I.Lab\equation\UnitTest.cpp -o CMakeFiles\equation.dir\UnitTest.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\dev\MIPT-academic-C-projects\equation\UnitTest.cpp -o CMakeFiles\equation.dir\UnitTest.cpp.s
 
 # Object files for target equation
 equation_OBJECTS = \
@@ -111,7 +111,7 @@ equation.exe: CMakeFiles/equation.dir/build.make
 equation.exe: CMakeFiles/equation.dir/linklibs.rsp
 equation.exe: CMakeFiles/equation.dir/objects1.rsp
 equation.exe: CMakeFiles/equation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\dev\I.Lab\equation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable equation.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\dev\MIPT-academic-C-projects\equation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable equation.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\equation.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -124,6 +124,6 @@ CMakeFiles/equation.dir/clean:
 .PHONY : CMakeFiles/equation.dir/clean
 
 CMakeFiles/equation.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\dev\I.Lab\equation C:\dev\I.Lab\equation C:\dev\I.Lab\equation\cmake-build-debug C:\dev\I.Lab\equation\cmake-build-debug C:\dev\I.Lab\equation\cmake-build-debug\CMakeFiles\equation.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\dev\MIPT-academic-C-projects\equation C:\dev\MIPT-academic-C-projects\equation C:\dev\MIPT-academic-C-projects\equation\cmake-build-debug C:\dev\MIPT-academic-C-projects\equation\cmake-build-debug C:\dev\MIPT-academic-C-projects\equation\cmake-build-debug\CMakeFiles\equation.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/equation.dir/depend
 

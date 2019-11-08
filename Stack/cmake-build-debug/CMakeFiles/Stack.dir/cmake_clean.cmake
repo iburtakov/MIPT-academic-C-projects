@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Stack.dir/main.cpp.obj"
+  "CMakeFiles/Stack.dir/stack.c.obj"
   "Stack.pdb"
   "Stack.exe"
   "Stack.exe.manifest"
@@ -7,6 +7,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
+foreach(lang C)
   include(CMakeFiles/Stack.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

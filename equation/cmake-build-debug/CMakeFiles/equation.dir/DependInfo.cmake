@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/dev/I.Lab/equation/SolveQuadraticEquationFunctions.cpp" "C:/dev/I.Lab/equation/cmake-build-debug/CMakeFiles/equation.dir/SolveQuadraticEquationFunctions.cpp.obj"
-  "C:/dev/I.Lab/equation/UnitTest.cpp" "C:/dev/I.Lab/equation/cmake-build-debug/CMakeFiles/equation.dir/UnitTest.cpp.obj"
-  "C:/dev/I.Lab/equation/main.cpp" "C:/dev/I.Lab/equation/cmake-build-debug/CMakeFiles/equation.dir/main.cpp.obj"
+  "C:/dev/MIPT-academic-C-projects/equation/SolveQuadraticEquationFunctions.cpp" "C:/dev/MIPT-academic-C-projects/equation/cmake-build-debug/CMakeFiles/equation.dir/SolveQuadraticEquationFunctions.cpp.obj"
+  "C:/dev/MIPT-academic-C-projects/equation/UnitTest.cpp" "C:/dev/MIPT-academic-C-projects/equation/cmake-build-debug/CMakeFiles/equation.dir/UnitTest.cpp.obj"
+  "C:/dev/MIPT-academic-C-projects/equation/main.cpp" "C:/dev/MIPT-academic-C-projects/equation/cmake-build-debug/CMakeFiles/equation.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

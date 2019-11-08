@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\dev\I.Lab\Stack
+CMAKE_SOURCE_DIR = C:\dev\MIPT-academic-C-projects\Stack
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\dev\I.Lab\Stack\cmake-build-debug
+CMAKE_BINARY_DIR = C:\dev\MIPT-academic-C-projects\Stack\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\dev\I.Lab\Stack\cmake-build-debug\CMakeFiles C:\dev\I.Lab\Stack\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\dev\MIPT-academic-C-projects\Stack\cmake-build-debug\CMakeFiles C:\dev\MIPT-academic-C-projects\Stack\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\dev\I.Lab\Stack\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\dev\MIPT-academic-C-projects\Stack\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -110,44 +110,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Stack
+# Target rules for targets named equation
 
 # Build rule for target.
-Stack: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Stack
-.PHONY : Stack
+equation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 equation
+.PHONY : equation
 
 # fast build rule for target.
-Stack/fast:
-	$(MAKE) -f CMakeFiles\Stack.dir\build.make CMakeFiles/Stack.dir/build
-.PHONY : Stack/fast
+equation/fast:
+	$(MAKE) -f CMakeFiles\equation.dir\build.make CMakeFiles/equation.dir/build
+.PHONY : equation/fast
 
-main.obj: main.cpp.obj
+stack.obj: stack.c.obj
 
-.PHONY : main.obj
+.PHONY : stack.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\Stack.dir\build.make CMakeFiles/Stack.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+stack.c.obj:
+	$(MAKE) -f CMakeFiles\equation.dir\build.make CMakeFiles/equation.dir/stack.c.obj
+.PHONY : stack.c.obj
 
-main.i: main.cpp.i
+stack.i: stack.c.i
 
-.PHONY : main.i
+.PHONY : stack.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\Stack.dir\build.make CMakeFiles/Stack.dir/main.cpp.i
-.PHONY : main.cpp.i
+stack.c.i:
+	$(MAKE) -f CMakeFiles\equation.dir\build.make CMakeFiles/equation.dir/stack.c.i
+.PHONY : stack.c.i
 
-main.s: main.cpp.s
+stack.s: stack.c.s
 
-.PHONY : main.s
+.PHONY : stack.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\Stack.dir\build.make CMakeFiles/Stack.dir/main.cpp.s
-.PHONY : main.cpp.s
+stack.c.s:
+	$(MAKE) -f CMakeFiles\equation.dir\build.make CMakeFiles/equation.dir/stack.c.s
+.PHONY : stack.c.s
+
+test_stack.obj: test_stack.c.obj
+
+.PHONY : test_stack.obj
+
+# target to build an object file
+test_stack.c.obj:
+	$(MAKE) -f CMakeFiles\equation.dir\build.make CMakeFiles/equation.dir/test_stack.c.obj
+.PHONY : test_stack.c.obj
+
+test_stack.i: test_stack.c.i
+
+.PHONY : test_stack.i
+
+# target to preprocess a source file
+test_stack.c.i:
+	$(MAKE) -f CMakeFiles\equation.dir\build.make CMakeFiles/equation.dir/test_stack.c.i
+.PHONY : test_stack.c.i
+
+test_stack.s: test_stack.c.s
+
+.PHONY : test_stack.s
+
+# target to generate assembly for a file
+test_stack.c.s:
+	$(MAKE) -f CMakeFiles\equation.dir\build.make CMakeFiles/equation.dir/test_stack.c.s
+.PHONY : test_stack.c.s
 
 # Help Target
 help:
@@ -155,12 +182,15 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... Stack
+	@echo ... equation
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... stack.obj
+	@echo ... stack.i
+	@echo ... stack.s
+	@echo ... test_stack.obj
+	@echo ... test_stack.i
+	@echo ... test_stack.s
 .PHONY : help
 
 

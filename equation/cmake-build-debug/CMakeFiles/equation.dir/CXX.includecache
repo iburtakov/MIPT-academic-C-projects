@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/dev/I.Lab/equation/SolveQuadraticEquationFunctions.h
+C:/dev/MIPT-academic-C-projects/equation/SolveQuadraticEquationFunctions.cpp
+SolveQuadraticEquationFunctions.h
+C:/dev/MIPT-academic-C-projects/equation/SolveQuadraticEquationFunctions.h
 stdio.h
 -
 assert.h
@@ -14,7 +16,15 @@ assert.h
 math.h
 -
 
-C:/dev/I.Lab/equation/UnitTest.cpp
+C:/dev/MIPT-academic-C-projects/equation/SolveQuadraticEquationFunctions.h
+stdio.h
+-
+assert.h
+-
+math.h
+-
+
+C:/dev/MIPT-academic-C-projects/equation/UnitTest.cpp
 stdio.h
 -
 assert.h
@@ -22,5 +32,25 @@ assert.h
 math.h
 -
 SolveQuadraticEquationFunctions.h
-C:/dev/I.Lab/equation/SolveQuadraticEquationFunctions.h
+C:/dev/MIPT-academic-C-projects/equation/SolveQuadraticEquationFunctions.h
+
+C:/dev/MIPT-academic-C-projects/equation/UnitTest.h
+stdio.h
+-
+assert.h
+-
+math.h
+-
+
+C:/dev/MIPT-academic-C-projects/equation/main.cpp
+stdio.h
+-
+assert.h
+-
+math.h
+-
+SolveQuadraticEquationFunctions.h
+C:/dev/MIPT-academic-C-projects/equation/SolveQuadraticEquationFunctions.h
+UnitTest.h
+C:/dev/MIPT-academic-C-projects/equation/UnitTest.h
 

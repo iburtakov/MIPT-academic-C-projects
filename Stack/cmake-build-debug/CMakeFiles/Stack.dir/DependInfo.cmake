@@ -1,15 +1,15 @@
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
+  "C"
   )
 # The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/dev/I.Lab/Stack/main.cpp" "C:/dev/I.Lab/Stack/cmake-build-debug/CMakeFiles/Stack.dir/main.cpp.obj"
+set(CMAKE_DEPENDS_CHECK_C
+  "C:/dev/MIPT-academic-C-projects/Stack/stack.c" "C:/dev/MIPT-academic-C-projects/Stack/cmake-build-debug/CMakeFiles/Stack.dir/stack.c.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
+set(CMAKE_C_TARGET_INCLUDE_PATH
   )
 
 # Targets to which this target links.
