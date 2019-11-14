@@ -19,22 +19,22 @@ stack_set_size:
 	error_number = 0
 
 stack_hash:
-	hash = -9811
+	hash = -8431
 
 stack_ok:
 
 stack_hash:
-	hash = -9811
+	hash = -8431
 	stack_ok: no errors detected
 	stack is successfully created
 
 					 STACK_DUMP:
-Stack "stk" [00BE1690]  (ok)
+Stack "stk" [00FC1690]  (ok)
 {
 	 canary1 = -1737075662
 	 size = 0
 	 capacity = 8
-	 data[8 elem.] = [00BE16C0]
+	 data[8 elem.] = [00FC16C0]
 		 data_canary1 = -1416824409
 		   [0] = -999    (POISON?) 
 		   [1] = -999    (POISON?) 
@@ -47,7 +47,7 @@ Stack "stk" [00BE1690]  (ok)
 		 data_canary2 = -1416824409
 	 canary2 = -1412567278
 
-	 hash = -9811
+	 hash = -8431
 	 error_number = NO_ERROR
 
 }
@@ -57,7 +57,7 @@ stack_dump: finished
 stack_ok:
 
 stack_hash:
-	hash = -9811
+	hash = -8431
 	stack_ok: no errors detected
 
 stack_push:
@@ -65,18 +65,18 @@ stack_push:
 	size = 1
 
 stack_hash:
-	hash = -9870
+	hash = -8490
 
 stack_ok:
 
 stack_hash:
-	hash = -9870
+	hash = -8490
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = -9870
+	hash = -8490
 	stack_ok: no errors detected
 
 stack_push:
@@ -84,18 +84,18 @@ stack_push:
 	size = 2
 
 stack_hash:
-	hash = -9997
+	hash = -8617
 
 stack_ok:
 
 stack_hash:
-	hash = -9997
+	hash = -8617
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = -9997
+	hash = -8617
 	stack_ok: no errors detected
 
 stack_push:
@@ -103,18 +103,18 @@ stack_push:
 	size = 3
 
 stack_hash:
-	hash = -10184
+	hash = -8804
 
 stack_ok:
 
 stack_hash:
-	hash = -10184
+	hash = -8804
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = -10184
+	hash = -8804
 	stack_ok: no errors detected
 
 stack_push:
@@ -122,18 +122,18 @@ stack_push:
 	size = 4
 
 stack_hash:
-	hash = -10423
+	hash = -9043
 
 stack_ok:
 
 stack_hash:
-	hash = -10423
+	hash = -9043
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = -10423
+	hash = -9043
 	stack_ok: no errors detected
 
 stack_push:
@@ -141,18 +141,18 @@ stack_push:
 	size = 5
 
 stack_hash:
-	hash = -10706
+	hash = -9326
 
 stack_ok:
 
 stack_hash:
-	hash = -10706
+	hash = -9326
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = -10706
+	hash = -9326
 	stack_ok: no errors detected
 
 stack_push:
@@ -160,18 +160,18 @@ stack_push:
 	size = 6
 
 stack_hash:
-	hash = -11025
+	hash = -9645
 
 stack_ok:
 
 stack_hash:
-	hash = -11025
+	hash = -9645
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = -11025
+	hash = -9645
 	stack_ok: no errors detected
 
 stack_push:
@@ -179,18 +179,18 @@ stack_push:
 	size = 7
 
 stack_hash:
-	hash = -11372
+	hash = -9992
 
 stack_ok:
 
 stack_hash:
-	hash = -11372
+	hash = -9992
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = -11372
+	hash = -9992
 	stack_ok: no errors detected
 
 stack_push:
@@ -198,7 +198,7 @@ stack_push:
 stack_ok:
 
 stack_hash:
-	hash = -11372
+	hash = -9992
 	stack_ok: no errors detected
 
 stack_set_size:
@@ -209,35 +209,35 @@ stack_set_size:
 	elements of stack from 7 to 13 are set in poison value
 
 stack_hash:
-	hash = -13238
+	hash = -11858
 
 stack_ok:
 
 stack_hash:
-	hash = -13238
+	hash = -11858
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = -13238
+	hash = -11858
 	stack_ok: no errors detected
 	pushed 7 
 	size = 8
 
 stack_hash:
-	hash = -13605
+	hash = -12225
 
 stack_ok:
 
 stack_hash:
-	hash = -13605
+	hash = -12225
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = -13605
+	hash = -12225
 	stack_ok: no errors detected
 
 stack_push:
@@ -245,18 +245,18 @@ stack_push:
 	size = 9
 
 stack_hash:
-	hash = -13984
+	hash = -12604
 
 stack_ok:
 
 stack_hash:
-	hash = -13984
+	hash = -12604
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = -13984
+	hash = -12604
 	stack_ok: no errors detected
 
 stack_push:
@@ -264,18 +264,18 @@ stack_push:
 	size = 10
 
 stack_hash:
-	hash = -14367
+	hash = -12987
 
 stack_ok:
 
 stack_hash:
-	hash = -14367
+	hash = -12987
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = -14367
+	hash = -12987
 	stack_ok: no errors detected
 
 stack_push:
@@ -283,18 +283,18 @@ stack_push:
 	size = 11
 
 stack_hash:
-	hash = -14746
+	hash = -13366
 
 stack_ok:
 
 stack_hash:
-	hash = -14746
+	hash = -13366
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = -14746
+	hash = -13366
 	stack_ok: no errors detected
 
 stack_push:
@@ -302,18 +302,18 @@ stack_push:
 	size = 12
 
 stack_hash:
-	hash = -15113
+	hash = -13733
 
 stack_ok:
 
 stack_hash:
-	hash = -15113
+	hash = -13733
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = -15113
+	hash = -13733
 	stack_ok: no errors detected
 
 stack_push:
@@ -321,18 +321,18 @@ stack_push:
 	size = 13
 
 stack_hash:
-	hash = -15460
+	hash = -14080
 
 stack_ok:
 
 stack_hash:
-	hash = -15460
+	hash = -14080
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = -15460
+	hash = -14080
 	stack_ok: no errors detected
 
 stack_push:
@@ -340,7 +340,7 @@ stack_push:
 stack_ok:
 
 stack_hash:
-	hash = -15460
+	hash = -14080
 	stack_ok: no errors detected
 
 stack_set_size:
@@ -351,35 +351,35 @@ stack_set_size:
 	elements of stack from 13 to 25 are set in poison value
 
 stack_hash:
-	hash = -10338
+	hash = -8958
 
 stack_ok:
 
 stack_hash:
-	hash = -10338
+	hash = -8958
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = -10338
+	hash = -8958
 	stack_ok: no errors detected
 	pushed 13 
 	size = 14
 
 stack_hash:
-	hash = -10657
+	hash = -9277
 
 stack_ok:
 
 stack_hash:
-	hash = -10657
+	hash = -9277
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = -10657
+	hash = -9277
 	stack_ok: no errors detected
 
 stack_push:
@@ -387,18 +387,18 @@ stack_push:
 	size = 15
 
 stack_hash:
-	hash = -10940
+	hash = -9560
 
 stack_ok:
 
 stack_hash:
-	hash = -10940
+	hash = -9560
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = -10940
+	hash = -9560
 	stack_ok: no errors detected
 
 stack_push:
@@ -406,18 +406,18 @@ stack_push:
 	size = 16
 
 stack_hash:
-	hash = -11179
+	hash = -9799
 
 stack_ok:
 
 stack_hash:
-	hash = -11179
+	hash = -9799
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = -11179
+	hash = -9799
 	stack_ok: no errors detected
 
 stack_push:
@@ -425,18 +425,18 @@ stack_push:
 	size = 17
 
 stack_hash:
-	hash = -11366
+	hash = -9986
 
 stack_ok:
 
 stack_hash:
-	hash = -11366
+	hash = -9986
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = -11366
+	hash = -9986
 	stack_ok: no errors detected
 
 stack_push:
@@ -444,18 +444,18 @@ stack_push:
 	size = 18
 
 stack_hash:
-	hash = -11493
+	hash = -10113
 
 stack_ok:
 
 stack_hash:
-	hash = -11493
+	hash = -10113
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = -11493
+	hash = -10113
 	stack_ok: no errors detected
 
 stack_push:
@@ -463,18 +463,18 @@ stack_push:
 	size = 19
 
 stack_hash:
-	hash = -11552
+	hash = -10172
 
 stack_ok:
 
 stack_hash:
-	hash = -11552
+	hash = -10172
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = -11552
+	hash = -10172
 	stack_ok: no errors detected
 
 stack_push:
@@ -482,18 +482,18 @@ stack_push:
 	size = 20
 
 stack_hash:
-	hash = -11535
+	hash = -10155
 
 stack_ok:
 
 stack_hash:
-	hash = -11535
+	hash = -10155
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = -11535
+	hash = -10155
 	stack_ok: no errors detected
 
 stack_push:
@@ -501,18 +501,18 @@ stack_push:
 	size = 21
 
 stack_hash:
-	hash = -11434
+	hash = -10054
 
 stack_ok:
 
 stack_hash:
-	hash = -11434
+	hash = -10054
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = -11434
+	hash = -10054
 	stack_ok: no errors detected
 
 stack_push:
@@ -520,18 +520,18 @@ stack_push:
 	size = 22
 
 stack_hash:
-	hash = -11241
+	hash = -9861
 
 stack_ok:
 
 stack_hash:
-	hash = -11241
+	hash = -9861
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = -11241
+	hash = -9861
 	stack_ok: no errors detected
 
 stack_push:
@@ -539,18 +539,18 @@ stack_push:
 	size = 23
 
 stack_hash:
-	hash = -10948
+	hash = -9568
 
 stack_ok:
 
 stack_hash:
-	hash = -10948
+	hash = -9568
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = -10948
+	hash = -9568
 	stack_ok: no errors detected
 
 stack_push:
@@ -558,18 +558,18 @@ stack_push:
 	size = 24
 
 stack_hash:
-	hash = -10547
+	hash = -9167
 
 stack_ok:
 
 stack_hash:
-	hash = -10547
+	hash = -9167
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = -10547
+	hash = -9167
 	stack_ok: no errors detected
 
 stack_push:
@@ -577,18 +577,18 @@ stack_push:
 	size = 25
 
 stack_hash:
-	hash = -10030
+	hash = -8650
 
 stack_ok:
 
 stack_hash:
-	hash = -10030
+	hash = -8650
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = -10030
+	hash = -8650
 	stack_ok: no errors detected
 
 stack_push:
@@ -596,7 +596,7 @@ stack_push:
 stack_ok:
 
 stack_hash:
-	hash = -10030
+	hash = -8650
 	stack_ok: no errors detected
 
 stack_set_size:
@@ -607,35 +607,35 @@ stack_set_size:
 	elements of stack from 25 to 49 are set in poison value
 
 stack_hash:
-	hash = 31754
+	hash = 33134
 
 stack_ok:
 
 stack_hash:
-	hash = 31754
+	hash = 33134
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 31754
+	hash = 33134
 	stack_ok: no errors detected
 	pushed 25 
 	size = 26
 
 stack_hash:
-	hash = 32395
+	hash = 33775
 
 stack_ok:
 
 stack_hash:
-	hash = 32395
+	hash = 33775
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 32395
+	hash = 33775
 	stack_ok: no errors detected
 
 stack_push:
@@ -643,18 +643,18 @@ stack_push:
 	size = 27
 
 stack_hash:
-	hash = 33168
+	hash = 34548
 
 stack_ok:
 
 stack_hash:
-	hash = 33168
+	hash = 34548
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 33168
+	hash = 34548
 	stack_ok: no errors detected
 
 stack_push:
@@ -662,18 +662,18 @@ stack_push:
 	size = 28
 
 stack_hash:
-	hash = 34081
+	hash = 35461
 
 stack_ok:
 
 stack_hash:
-	hash = 34081
+	hash = 35461
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 34081
+	hash = 35461
 	stack_ok: no errors detected
 
 stack_push:
@@ -681,18 +681,18 @@ stack_push:
 	size = 29
 
 stack_hash:
-	hash = 35142
+	hash = 36522
 
 stack_ok:
 
 stack_hash:
-	hash = 35142
+	hash = 36522
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 35142
+	hash = 36522
 	stack_ok: no errors detected
 
 stack_push:
@@ -700,18 +700,18 @@ stack_push:
 	size = 30
 
 stack_hash:
-	hash = 36359
+	hash = 37739
 
 stack_ok:
 
 stack_hash:
-	hash = 36359
+	hash = 37739
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 36359
+	hash = 37739
 	stack_ok: no errors detected
 
 stack_push:
@@ -719,18 +719,18 @@ stack_push:
 	size = 31
 
 stack_hash:
-	hash = 37740
+	hash = 39120
 
 stack_ok:
 
 stack_hash:
-	hash = 37740
+	hash = 39120
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 37740
+	hash = 39120
 	stack_ok: no errors detected
 
 stack_push:
@@ -738,18 +738,18 @@ stack_push:
 	size = 32
 
 stack_hash:
-	hash = 39293
+	hash = 40673
 
 stack_ok:
 
 stack_hash:
-	hash = 39293
+	hash = 40673
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 39293
+	hash = 40673
 	stack_ok: no errors detected
 
 stack_push:
@@ -757,18 +757,18 @@ stack_push:
 	size = 33
 
 stack_hash:
-	hash = 41026
+	hash = 42406
 
 stack_ok:
 
 stack_hash:
-	hash = 41026
+	hash = 42406
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 41026
+	hash = 42406
 	stack_ok: no errors detected
 
 stack_push:
@@ -776,18 +776,18 @@ stack_push:
 	size = 34
 
 stack_hash:
-	hash = 42947
+	hash = 44327
 
 stack_ok:
 
 stack_hash:
-	hash = 42947
+	hash = 44327
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 42947
+	hash = 44327
 	stack_ok: no errors detected
 
 stack_push:
@@ -795,18 +795,18 @@ stack_push:
 	size = 35
 
 stack_hash:
-	hash = 45064
+	hash = 46444
 
 stack_ok:
 
 stack_hash:
-	hash = 45064
+	hash = 46444
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 45064
+	hash = 46444
 	stack_ok: no errors detected
 
 stack_push:
@@ -814,18 +814,18 @@ stack_push:
 	size = 36
 
 stack_hash:
-	hash = 47385
+	hash = 48765
 
 stack_ok:
 
 stack_hash:
-	hash = 47385
+	hash = 48765
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 47385
+	hash = 48765
 	stack_ok: no errors detected
 
 stack_push:
@@ -833,18 +833,18 @@ stack_push:
 	size = 37
 
 stack_hash:
-	hash = 49918
+	hash = 51298
 
 stack_ok:
 
 stack_hash:
-	hash = 49918
+	hash = 51298
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 49918
+	hash = 51298
 	stack_ok: no errors detected
 
 stack_push:
@@ -852,18 +852,18 @@ stack_push:
 	size = 38
 
 stack_hash:
-	hash = 52671
+	hash = 54051
 
 stack_ok:
 
 stack_hash:
-	hash = 52671
+	hash = 54051
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 52671
+	hash = 54051
 	stack_ok: no errors detected
 
 stack_push:
@@ -871,18 +871,18 @@ stack_push:
 	size = 39
 
 stack_hash:
-	hash = 55652
+	hash = 57032
 
 stack_ok:
 
 stack_hash:
-	hash = 55652
+	hash = 57032
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 55652
+	hash = 57032
 	stack_ok: no errors detected
 
 stack_push:
@@ -890,18 +890,18 @@ stack_push:
 	size = 40
 
 stack_hash:
-	hash = 58869
+	hash = 60249
 
 stack_ok:
 
 stack_hash:
-	hash = 58869
+	hash = 60249
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 58869
+	hash = 60249
 	stack_ok: no errors detected
 
 stack_push:
@@ -909,18 +909,18 @@ stack_push:
 	size = 41
 
 stack_hash:
-	hash = 62330
+	hash = 63710
 
 stack_ok:
 
 stack_hash:
-	hash = 62330
+	hash = 63710
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 62330
+	hash = 63710
 	stack_ok: no errors detected
 
 stack_push:
@@ -928,18 +928,18 @@ stack_push:
 	size = 42
 
 stack_hash:
-	hash = 66043
+	hash = 67423
 
 stack_ok:
 
 stack_hash:
-	hash = 66043
+	hash = 67423
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 66043
+	hash = 67423
 	stack_ok: no errors detected
 
 stack_push:
@@ -947,18 +947,18 @@ stack_push:
 	size = 43
 
 stack_hash:
-	hash = 70016
+	hash = 71396
 
 stack_ok:
 
 stack_hash:
-	hash = 70016
+	hash = 71396
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 70016
+	hash = 71396
 	stack_ok: no errors detected
 
 stack_push:
@@ -966,18 +966,18 @@ stack_push:
 	size = 44
 
 stack_hash:
-	hash = 74257
+	hash = 75637
 
 stack_ok:
 
 stack_hash:
-	hash = 74257
+	hash = 75637
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 74257
+	hash = 75637
 	stack_ok: no errors detected
 
 stack_push:
@@ -985,18 +985,18 @@ stack_push:
 	size = 45
 
 stack_hash:
-	hash = 78774
+	hash = 80154
 
 stack_ok:
 
 stack_hash:
-	hash = 78774
+	hash = 80154
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 78774
+	hash = 80154
 	stack_ok: no errors detected
 
 stack_push:
@@ -1004,18 +1004,18 @@ stack_push:
 	size = 46
 
 stack_hash:
-	hash = 83575
+	hash = 84955
 
 stack_ok:
 
 stack_hash:
-	hash = 83575
+	hash = 84955
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 83575
+	hash = 84955
 	stack_ok: no errors detected
 
 stack_push:
@@ -1023,18 +1023,18 @@ stack_push:
 	size = 47
 
 stack_hash:
-	hash = 88668
+	hash = 90048
 
 stack_ok:
 
 stack_hash:
-	hash = 88668
+	hash = 90048
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 88668
+	hash = 90048
 	stack_ok: no errors detected
 
 stack_push:
@@ -1042,18 +1042,18 @@ stack_push:
 	size = 48
 
 stack_hash:
-	hash = 94061
+	hash = 95441
 
 stack_ok:
 
 stack_hash:
-	hash = 94061
+	hash = 95441
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 94061
+	hash = 95441
 	stack_ok: no errors detected
 
 stack_push:
@@ -1061,18 +1061,18 @@ stack_push:
 	size = 49
 
 stack_hash:
-	hash = 99762
+	hash = 101142
 
 stack_ok:
 
 stack_hash:
-	hash = 99762
+	hash = 101142
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 99762
+	hash = 101142
 	stack_ok: no errors detected
 
 stack_push:
@@ -1080,7 +1080,7 @@ stack_push:
 stack_ok:
 
 stack_hash:
-	hash = 99762
+	hash = 101142
 	stack_ok: no errors detected
 
 stack_set_size:
@@ -1091,35 +1091,35 @@ stack_set_size:
 	elements of stack from 49 to 97 are set in poison value
 
 stack_hash:
-	hash = 314658
+	hash = 316038
 
 stack_ok:
 
 stack_hash:
-	hash = 314658
+	hash = 316038
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 314658
+	hash = 316038
 	stack_ok: no errors detected
 	pushed 49 
 	size = 50
 
 stack_hash:
-	hash = 320675
+	hash = 322055
 
 stack_ok:
 
 stack_hash:
-	hash = 320675
+	hash = 322055
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 320675
+	hash = 322055
 	stack_ok: no errors detected
 
 stack_push:
@@ -1127,18 +1127,18 @@ stack_push:
 	size = 51
 
 stack_hash:
-	hash = 327016
+	hash = 328396
 
 stack_ok:
 
 stack_hash:
-	hash = 327016
+	hash = 328396
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 327016
+	hash = 328396
 	stack_ok: no errors detected
 
 stack_push:
@@ -1146,18 +1146,18 @@ stack_push:
 	size = 52
 
 stack_hash:
-	hash = 333689
+	hash = 335069
 
 stack_ok:
 
 stack_hash:
-	hash = 333689
+	hash = 335069
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 333689
+	hash = 335069
 	stack_ok: no errors detected
 
 stack_push:
@@ -1165,18 +1165,18 @@ stack_push:
 	size = 53
 
 stack_hash:
-	hash = 340702
+	hash = 342082
 
 stack_ok:
 
 stack_hash:
-	hash = 340702
+	hash = 342082
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 340702
+	hash = 342082
 	stack_ok: no errors detected
 
 stack_push:
@@ -1184,18 +1184,18 @@ stack_push:
 	size = 54
 
 stack_hash:
-	hash = 348063
+	hash = 349443
 
 stack_ok:
 
 stack_hash:
-	hash = 348063
+	hash = 349443
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 348063
+	hash = 349443
 	stack_ok: no errors detected
 
 stack_push:
@@ -1203,18 +1203,18 @@ stack_push:
 	size = 55
 
 stack_hash:
-	hash = 355780
+	hash = 357160
 
 stack_ok:
 
 stack_hash:
-	hash = 355780
+	hash = 357160
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 355780
+	hash = 357160
 	stack_ok: no errors detected
 
 stack_push:
@@ -1222,18 +1222,18 @@ stack_push:
 	size = 56
 
 stack_hash:
-	hash = 363861
+	hash = 365241
 
 stack_ok:
 
 stack_hash:
-	hash = 363861
+	hash = 365241
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 363861
+	hash = 365241
 	stack_ok: no errors detected
 
 stack_push:
@@ -1241,18 +1241,18 @@ stack_push:
 	size = 57
 
 stack_hash:
-	hash = 372314
+	hash = 373694
 
 stack_ok:
 
 stack_hash:
-	hash = 372314
+	hash = 373694
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 372314
+	hash = 373694
 	stack_ok: no errors detected
 
 stack_push:
@@ -1260,18 +1260,18 @@ stack_push:
 	size = 58
 
 stack_hash:
-	hash = 381147
+	hash = 382527
 
 stack_ok:
 
 stack_hash:
-	hash = 381147
+	hash = 382527
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 381147
+	hash = 382527
 	stack_ok: no errors detected
 
 stack_push:
@@ -1279,18 +1279,18 @@ stack_push:
 	size = 59
 
 stack_hash:
-	hash = 390368
+	hash = 391748
 
 stack_ok:
 
 stack_hash:
-	hash = 390368
+	hash = 391748
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 390368
+	hash = 391748
 	stack_ok: no errors detected
 
 stack_push:
@@ -1298,18 +1298,18 @@ stack_push:
 	size = 60
 
 stack_hash:
-	hash = 399985
+	hash = 401365
 
 stack_ok:
 
 stack_hash:
-	hash = 399985
+	hash = 401365
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 399985
+	hash = 401365
 	stack_ok: no errors detected
 
 stack_push:
@@ -1317,18 +1317,18 @@ stack_push:
 	size = 61
 
 stack_hash:
-	hash = 410006
+	hash = 411386
 
 stack_ok:
 
 stack_hash:
-	hash = 410006
+	hash = 411386
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 410006
+	hash = 411386
 	stack_ok: no errors detected
 
 stack_push:
@@ -1336,18 +1336,18 @@ stack_push:
 	size = 62
 
 stack_hash:
-	hash = 420439
+	hash = 421819
 
 stack_ok:
 
 stack_hash:
-	hash = 420439
+	hash = 421819
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 420439
+	hash = 421819
 	stack_ok: no errors detected
 
 stack_push:
@@ -1355,18 +1355,18 @@ stack_push:
 	size = 63
 
 stack_hash:
-	hash = 431292
+	hash = 432672
 
 stack_ok:
 
 stack_hash:
-	hash = 431292
+	hash = 432672
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 431292
+	hash = 432672
 	stack_ok: no errors detected
 
 stack_push:
@@ -1374,18 +1374,18 @@ stack_push:
 	size = 64
 
 stack_hash:
-	hash = 442573
+	hash = 443953
 
 stack_ok:
 
 stack_hash:
-	hash = 442573
+	hash = 443953
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 442573
+	hash = 443953
 	stack_ok: no errors detected
 
 stack_push:
@@ -1393,18 +1393,18 @@ stack_push:
 	size = 65
 
 stack_hash:
-	hash = 454290
+	hash = 455670
 
 stack_ok:
 
 stack_hash:
-	hash = 454290
+	hash = 455670
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 454290
+	hash = 455670
 	stack_ok: no errors detected
 
 stack_push:
@@ -1412,18 +1412,18 @@ stack_push:
 	size = 66
 
 stack_hash:
-	hash = 466451
+	hash = 467831
 
 stack_ok:
 
 stack_hash:
-	hash = 466451
+	hash = 467831
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 466451
+	hash = 467831
 	stack_ok: no errors detected
 
 stack_push:
@@ -1431,18 +1431,18 @@ stack_push:
 	size = 67
 
 stack_hash:
-	hash = 479064
+	hash = 480444
 
 stack_ok:
 
 stack_hash:
-	hash = 479064
+	hash = 480444
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 479064
+	hash = 480444
 	stack_ok: no errors detected
 
 stack_push:
@@ -1450,18 +1450,18 @@ stack_push:
 	size = 68
 
 stack_hash:
-	hash = 492137
+	hash = 493517
 
 stack_ok:
 
 stack_hash:
-	hash = 492137
+	hash = 493517
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 492137
+	hash = 493517
 	stack_ok: no errors detected
 
 stack_push:
@@ -1469,18 +1469,18 @@ stack_push:
 	size = 69
 
 stack_hash:
-	hash = 505678
+	hash = 507058
 
 stack_ok:
 
 stack_hash:
-	hash = 505678
+	hash = 507058
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 505678
+	hash = 507058
 	stack_ok: no errors detected
 
 stack_push:
@@ -1488,18 +1488,18 @@ stack_push:
 	size = 70
 
 stack_hash:
-	hash = 519695
+	hash = 521075
 
 stack_ok:
 
 stack_hash:
-	hash = 519695
+	hash = 521075
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 519695
+	hash = 521075
 	stack_ok: no errors detected
 
 stack_push:
@@ -1507,18 +1507,18 @@ stack_push:
 	size = 71
 
 stack_hash:
-	hash = 534196
+	hash = 535576
 
 stack_ok:
 
 stack_hash:
-	hash = 534196
+	hash = 535576
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 534196
+	hash = 535576
 	stack_ok: no errors detected
 
 stack_push:
@@ -1526,18 +1526,18 @@ stack_push:
 	size = 72
 
 stack_hash:
-	hash = 549189
+	hash = 550569
 
 stack_ok:
 
 stack_hash:
-	hash = 549189
+	hash = 550569
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 549189
+	hash = 550569
 	stack_ok: no errors detected
 
 stack_push:
@@ -1545,18 +1545,18 @@ stack_push:
 	size = 73
 
 stack_hash:
-	hash = 564682
+	hash = 566062
 
 stack_ok:
 
 stack_hash:
-	hash = 564682
+	hash = 566062
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 564682
+	hash = 566062
 	stack_ok: no errors detected
 
 stack_push:
@@ -1564,18 +1564,18 @@ stack_push:
 	size = 74
 
 stack_hash:
-	hash = 580683
+	hash = 582063
 
 stack_ok:
 
 stack_hash:
-	hash = 580683
+	hash = 582063
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 580683
+	hash = 582063
 	stack_ok: no errors detected
 
 stack_push:
@@ -1583,18 +1583,18 @@ stack_push:
 	size = 75
 
 stack_hash:
-	hash = 597200
+	hash = 598580
 
 stack_ok:
 
 stack_hash:
-	hash = 597200
+	hash = 598580
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 597200
+	hash = 598580
 	stack_ok: no errors detected
 
 stack_push:
@@ -1602,18 +1602,18 @@ stack_push:
 	size = 76
 
 stack_hash:
-	hash = 614241
+	hash = 615621
 
 stack_ok:
 
 stack_hash:
-	hash = 614241
+	hash = 615621
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 614241
+	hash = 615621
 	stack_ok: no errors detected
 
 stack_push:
@@ -1621,18 +1621,18 @@ stack_push:
 	size = 77
 
 stack_hash:
-	hash = 631814
+	hash = 633194
 
 stack_ok:
 
 stack_hash:
-	hash = 631814
+	hash = 633194
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 631814
+	hash = 633194
 	stack_ok: no errors detected
 
 stack_push:
@@ -1640,18 +1640,18 @@ stack_push:
 	size = 78
 
 stack_hash:
-	hash = 649927
+	hash = 651307
 
 stack_ok:
 
 stack_hash:
-	hash = 649927
+	hash = 651307
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 649927
+	hash = 651307
 	stack_ok: no errors detected
 
 stack_push:
@@ -1659,18 +1659,18 @@ stack_push:
 	size = 79
 
 stack_hash:
-	hash = 668588
+	hash = 669968
 
 stack_ok:
 
 stack_hash:
-	hash = 668588
+	hash = 669968
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 668588
+	hash = 669968
 	stack_ok: no errors detected
 
 stack_push:
@@ -1678,18 +1678,18 @@ stack_push:
 	size = 80
 
 stack_hash:
-	hash = 687805
+	hash = 689185
 
 stack_ok:
 
 stack_hash:
-	hash = 687805
+	hash = 689185
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 687805
+	hash = 689185
 	stack_ok: no errors detected
 
 stack_push:
@@ -1697,18 +1697,18 @@ stack_push:
 	size = 81
 
 stack_hash:
-	hash = 707586
+	hash = 708966
 
 stack_ok:
 
 stack_hash:
-	hash = 707586
+	hash = 708966
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 707586
+	hash = 708966
 	stack_ok: no errors detected
 
 stack_push:
@@ -1716,18 +1716,18 @@ stack_push:
 	size = 82
 
 stack_hash:
-	hash = 727939
+	hash = 729319
 
 stack_ok:
 
 stack_hash:
-	hash = 727939
+	hash = 729319
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 727939
+	hash = 729319
 	stack_ok: no errors detected
 
 stack_push:
@@ -1735,18 +1735,18 @@ stack_push:
 	size = 83
 
 stack_hash:
-	hash = 748872
+	hash = 750252
 
 stack_ok:
 
 stack_hash:
-	hash = 748872
+	hash = 750252
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 748872
+	hash = 750252
 	stack_ok: no errors detected
 
 stack_push:
@@ -1754,18 +1754,18 @@ stack_push:
 	size = 84
 
 stack_hash:
-	hash = 770393
+	hash = 771773
 
 stack_ok:
 
 stack_hash:
-	hash = 770393
+	hash = 771773
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 770393
+	hash = 771773
 	stack_ok: no errors detected
 
 stack_push:
@@ -1773,18 +1773,18 @@ stack_push:
 	size = 85
 
 stack_hash:
-	hash = 792510
+	hash = 793890
 
 stack_ok:
 
 stack_hash:
-	hash = 792510
+	hash = 793890
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 792510
+	hash = 793890
 	stack_ok: no errors detected
 
 stack_push:
@@ -1792,18 +1792,18 @@ stack_push:
 	size = 86
 
 stack_hash:
-	hash = 815231
+	hash = 816611
 
 stack_ok:
 
 stack_hash:
-	hash = 815231
+	hash = 816611
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 815231
+	hash = 816611
 	stack_ok: no errors detected
 
 stack_push:
@@ -1811,18 +1811,18 @@ stack_push:
 	size = 87
 
 stack_hash:
-	hash = 838564
+	hash = 839944
 
 stack_ok:
 
 stack_hash:
-	hash = 838564
+	hash = 839944
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 838564
+	hash = 839944
 	stack_ok: no errors detected
 
 stack_push:
@@ -1830,18 +1830,18 @@ stack_push:
 	size = 88
 
 stack_hash:
-	hash = 862517
+	hash = 863897
 
 stack_ok:
 
 stack_hash:
-	hash = 862517
+	hash = 863897
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 862517
+	hash = 863897
 	stack_ok: no errors detected
 
 stack_push:
@@ -1849,18 +1849,18 @@ stack_push:
 	size = 89
 
 stack_hash:
-	hash = 887098
+	hash = 888478
 
 stack_ok:
 
 stack_hash:
-	hash = 887098
+	hash = 888478
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 887098
+	hash = 888478
 	stack_ok: no errors detected
 
 stack_push:
@@ -1868,18 +1868,18 @@ stack_push:
 	size = 90
 
 stack_hash:
-	hash = 912315
+	hash = 913695
 
 stack_ok:
 
 stack_hash:
-	hash = 912315
+	hash = 913695
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 912315
+	hash = 913695
 	stack_ok: no errors detected
 
 stack_push:
@@ -1887,18 +1887,18 @@ stack_push:
 	size = 91
 
 stack_hash:
-	hash = 938176
+	hash = 939556
 
 stack_ok:
 
 stack_hash:
-	hash = 938176
+	hash = 939556
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 938176
+	hash = 939556
 	stack_ok: no errors detected
 
 stack_push:
@@ -1906,18 +1906,18 @@ stack_push:
 	size = 92
 
 stack_hash:
-	hash = 964689
+	hash = 966069
 
 stack_ok:
 
 stack_hash:
-	hash = 964689
+	hash = 966069
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 964689
+	hash = 966069
 	stack_ok: no errors detected
 
 stack_push:
@@ -1925,18 +1925,18 @@ stack_push:
 	size = 93
 
 stack_hash:
-	hash = 991862
+	hash = 993242
 
 stack_ok:
 
 stack_hash:
-	hash = 991862
+	hash = 993242
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 991862
+	hash = 993242
 	stack_ok: no errors detected
 
 stack_push:
@@ -1944,18 +1944,18 @@ stack_push:
 	size = 94
 
 stack_hash:
-	hash = 1019703
+	hash = 1021083
 
 stack_ok:
 
 stack_hash:
-	hash = 1019703
+	hash = 1021083
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 1019703
+	hash = 1021083
 	stack_ok: no errors detected
 
 stack_push:
@@ -1963,18 +1963,18 @@ stack_push:
 	size = 95
 
 stack_hash:
-	hash = 1048220
+	hash = 1049600
 
 stack_ok:
 
 stack_hash:
-	hash = 1048220
+	hash = 1049600
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 1048220
+	hash = 1049600
 	stack_ok: no errors detected
 
 stack_push:
@@ -1982,18 +1982,18 @@ stack_push:
 	size = 96
 
 stack_hash:
-	hash = 1077421
+	hash = 1078801
 
 stack_ok:
 
 stack_hash:
-	hash = 1077421
+	hash = 1078801
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 1077421
+	hash = 1078801
 	stack_ok: no errors detected
 
 stack_push:
@@ -2001,18 +2001,18 @@ stack_push:
 	size = 97
 
 stack_hash:
-	hash = 1107314
+	hash = 1108694
 
 stack_ok:
 
 stack_hash:
-	hash = 1107314
+	hash = 1108694
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 1107314
+	hash = 1108694
 	stack_ok: no errors detected
 
 stack_push:
@@ -2020,7 +2020,7 @@ stack_push:
 stack_ok:
 
 stack_hash:
-	hash = 1107314
+	hash = 1108694
 	stack_ok: no errors detected
 
 stack_set_size:
@@ -2031,35 +2031,35 @@ stack_set_size:
 	elements of stack from 97 to 193 are set in poison value
 
 stack_hash:
-	hash = 2059346
+	hash = 2060726
 
 stack_ok:
 
 stack_hash:
-	hash = 2059346
+	hash = 2060726
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 2059346
+	hash = 2060726
 	stack_ok: no errors detected
 	pushed 97 
 	size = 98
 
 stack_hash:
-	hash = 2089939
+	hash = 2091319
 
 stack_ok:
 
 stack_hash:
-	hash = 2089939
+	hash = 2091319
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 2089939
+	hash = 2091319
 	stack_ok: no errors detected
 
 stack_push:
@@ -2067,18 +2067,18 @@ stack_push:
 	size = 99
 
 stack_hash:
-	hash = 2121240
+	hash = 2122620
 
 stack_ok:
 
 stack_hash:
-	hash = 2121240
+	hash = 2122620
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 2121240
+	hash = 2122620
 	stack_ok: no errors detected
 
 stack_push:
@@ -2086,18 +2086,18 @@ stack_push:
 	size = 100
 
 stack_hash:
-	hash = 2153257
+	hash = 2154637
 
 stack_ok:
 
 stack_hash:
-	hash = 2153257
+	hash = 2154637
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 2153257
+	hash = 2154637
 	stack_ok: no errors detected
 
 stack_push:
@@ -2105,18 +2105,18 @@ stack_push:
 	size = 101
 
 stack_hash:
-	hash = 2185998
+	hash = 2187378
 
 stack_ok:
 
 stack_hash:
-	hash = 2185998
+	hash = 2187378
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 2185998
+	hash = 2187378
 	stack_ok: no errors detected
 
 stack_pop:
@@ -2124,21 +2124,21 @@ stack_pop:
 	popped 100 
 
 stack_hash:
-	hash = 2153257
+	hash = 2154637
 
 stack_hash:
-	hash = 2153257
+	hash = 2154637
 
 stack_ok:
 
 stack_hash:
-	hash = 2153257
+	hash = 2154637
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 2153257
+	hash = 2154637
 	stack_ok: no errors detected
 
 stack_pop:
@@ -2146,21 +2146,21 @@ stack_pop:
 	popped 99 
 
 stack_hash:
-	hash = 2121240
+	hash = 2122620
 
 stack_hash:
-	hash = 2121240
+	hash = 2122620
 
 stack_ok:
 
 stack_hash:
-	hash = 2121240
+	hash = 2122620
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 2121240
+	hash = 2122620
 	stack_ok: no errors detected
 
 stack_pop:
@@ -2168,21 +2168,21 @@ stack_pop:
 	popped 98 
 
 stack_hash:
-	hash = 2089939
+	hash = 2091319
 
 stack_hash:
-	hash = 2089939
+	hash = 2091319
 
 stack_ok:
 
 stack_hash:
-	hash = 2089939
+	hash = 2091319
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 2089939
+	hash = 2091319
 	stack_ok: no errors detected
 
 stack_pop:
@@ -2190,21 +2190,21 @@ stack_pop:
 	popped 97 
 
 stack_hash:
-	hash = 2059346
+	hash = 2060726
 
 stack_hash:
-	hash = 2059346
+	hash = 2060726
 
 stack_ok:
 
 stack_hash:
-	hash = 2059346
+	hash = 2060726
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 2059346
+	hash = 2060726
 	stack_ok: no errors detected
 
 stack_pop:
@@ -2212,21 +2212,21 @@ stack_pop:
 	popped 96 
 
 stack_hash:
-	hash = 2029453
+	hash = 2030833
 
 stack_hash:
-	hash = 2029453
+	hash = 2030833
 
 stack_ok:
 
 stack_hash:
-	hash = 2029453
+	hash = 2030833
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 2029453
+	hash = 2030833
 	stack_ok: no errors detected
 
 stack_pop:
@@ -2234,21 +2234,21 @@ stack_pop:
 	popped 95 
 
 stack_hash:
-	hash = 2000252
+	hash = 2001632
 
 stack_hash:
-	hash = 2000252
+	hash = 2001632
 
 stack_ok:
 
 stack_hash:
-	hash = 2000252
+	hash = 2001632
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 2000252
+	hash = 2001632
 	stack_ok: no errors detected
 
 stack_pop:
@@ -2256,21 +2256,21 @@ stack_pop:
 	popped 94 
 
 stack_hash:
-	hash = 1971735
+	hash = 1973115
 
 stack_hash:
-	hash = 1971735
+	hash = 1973115
 
 stack_ok:
 
 stack_hash:
-	hash = 1971735
+	hash = 1973115
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 1971735
+	hash = 1973115
 	stack_ok: no errors detected
 
 stack_pop:
@@ -2278,21 +2278,21 @@ stack_pop:
 	popped 93 
 
 stack_hash:
-	hash = 1943894
+	hash = 1945274
 
 stack_hash:
-	hash = 1943894
+	hash = 1945274
 
 stack_ok:
 
 stack_hash:
-	hash = 1943894
+	hash = 1945274
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 1943894
+	hash = 1945274
 	stack_ok: no errors detected
 
 stack_pop:
@@ -2300,21 +2300,21 @@ stack_pop:
 	popped 92 
 
 stack_hash:
-	hash = 1916721
+	hash = 1918101
 
 stack_hash:
-	hash = 1916721
+	hash = 1918101
 
 stack_ok:
 
 stack_hash:
-	hash = 1916721
+	hash = 1918101
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 1916721
+	hash = 1918101
 	stack_ok: no errors detected
 
 stack_pop:
@@ -2322,21 +2322,21 @@ stack_pop:
 	popped 91 
 
 stack_hash:
-	hash = 1890208
+	hash = 1891588
 
 stack_hash:
-	hash = 1890208
+	hash = 1891588
 
 stack_ok:
 
 stack_hash:
-	hash = 1890208
+	hash = 1891588
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 1890208
+	hash = 1891588
 	stack_ok: no errors detected
 
 stack_pop:
@@ -2344,21 +2344,21 @@ stack_pop:
 	popped 90 
 
 stack_hash:
-	hash = 1864347
+	hash = 1865727
 
 stack_hash:
-	hash = 1864347
+	hash = 1865727
 
 stack_ok:
 
 stack_hash:
-	hash = 1864347
+	hash = 1865727
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 1864347
+	hash = 1865727
 	stack_ok: no errors detected
 
 stack_pop:
@@ -2366,21 +2366,21 @@ stack_pop:
 	popped 89 
 
 stack_hash:
-	hash = 1839130
+	hash = 1840510
 
 stack_hash:
-	hash = 1839130
+	hash = 1840510
 
 stack_ok:
 
 stack_hash:
-	hash = 1839130
+	hash = 1840510
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 1839130
+	hash = 1840510
 	stack_ok: no errors detected
 
 stack_pop:
@@ -2388,21 +2388,21 @@ stack_pop:
 	popped 88 
 
 stack_hash:
-	hash = 1814549
+	hash = 1815929
 
 stack_hash:
-	hash = 1814549
+	hash = 1815929
 
 stack_ok:
 
 stack_hash:
-	hash = 1814549
+	hash = 1815929
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 1814549
+	hash = 1815929
 	stack_ok: no errors detected
 
 stack_pop:
@@ -2410,21 +2410,21 @@ stack_pop:
 	popped 87 
 
 stack_hash:
-	hash = 1790596
+	hash = 1791976
 
 stack_hash:
-	hash = 1790596
+	hash = 1791976
 
 stack_ok:
 
 stack_hash:
-	hash = 1790596
+	hash = 1791976
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 1790596
+	hash = 1791976
 	stack_ok: no errors detected
 
 stack_pop:
@@ -2432,21 +2432,21 @@ stack_pop:
 	popped 86 
 
 stack_hash:
-	hash = 1767263
+	hash = 1768643
 
 stack_hash:
-	hash = 1767263
+	hash = 1768643
 
 stack_ok:
 
 stack_hash:
-	hash = 1767263
+	hash = 1768643
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 1767263
+	hash = 1768643
 	stack_ok: no errors detected
 
 stack_pop:
@@ -2454,21 +2454,21 @@ stack_pop:
 	popped 85 
 
 stack_hash:
-	hash = 1744542
+	hash = 1745922
 
 stack_hash:
-	hash = 1744542
+	hash = 1745922
 
 stack_ok:
 
 stack_hash:
-	hash = 1744542
+	hash = 1745922
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 1744542
+	hash = 1745922
 	stack_ok: no errors detected
 
 stack_pop:
@@ -2476,21 +2476,21 @@ stack_pop:
 	popped 84 
 
 stack_hash:
-	hash = 1722425
+	hash = 1723805
 
 stack_hash:
-	hash = 1722425
+	hash = 1723805
 
 stack_ok:
 
 stack_hash:
-	hash = 1722425
+	hash = 1723805
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 1722425
+	hash = 1723805
 	stack_ok: no errors detected
 
 stack_pop:
@@ -2498,21 +2498,21 @@ stack_pop:
 	popped 83 
 
 stack_hash:
-	hash = 1700904
+	hash = 1702284
 
 stack_hash:
-	hash = 1700904
+	hash = 1702284
 
 stack_ok:
 
 stack_hash:
-	hash = 1700904
+	hash = 1702284
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 1700904
+	hash = 1702284
 	stack_ok: no errors detected
 
 stack_pop:
@@ -2520,21 +2520,21 @@ stack_pop:
 	popped 82 
 
 stack_hash:
-	hash = 1679971
+	hash = 1681351
 
 stack_hash:
-	hash = 1679971
+	hash = 1681351
 
 stack_ok:
 
 stack_hash:
-	hash = 1679971
+	hash = 1681351
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 1679971
+	hash = 1681351
 	stack_ok: no errors detected
 
 stack_pop:
@@ -2542,21 +2542,21 @@ stack_pop:
 	popped 81 
 
 stack_hash:
-	hash = 1659618
+	hash = 1660998
 
 stack_hash:
-	hash = 1659618
+	hash = 1660998
 
 stack_ok:
 
 stack_hash:
-	hash = 1659618
+	hash = 1660998
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 1659618
+	hash = 1660998
 	stack_ok: no errors detected
 
 stack_pop:
@@ -2564,21 +2564,21 @@ stack_pop:
 	popped 80 
 
 stack_hash:
-	hash = 1639837
+	hash = 1641217
 
 stack_hash:
-	hash = 1639837
+	hash = 1641217
 
 stack_ok:
 
 stack_hash:
-	hash = 1639837
+	hash = 1641217
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 1639837
+	hash = 1641217
 	stack_ok: no errors detected
 
 stack_pop:
@@ -2586,21 +2586,21 @@ stack_pop:
 	popped 79 
 
 stack_hash:
-	hash = 1620620
+	hash = 1622000
 
 stack_hash:
-	hash = 1620620
+	hash = 1622000
 
 stack_ok:
 
 stack_hash:
-	hash = 1620620
+	hash = 1622000
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 1620620
+	hash = 1622000
 	stack_ok: no errors detected
 
 stack_pop:
@@ -2608,21 +2608,21 @@ stack_pop:
 	popped 78 
 
 stack_hash:
-	hash = 1601959
+	hash = 1603339
 
 stack_hash:
-	hash = 1601959
+	hash = 1603339
 
 stack_ok:
 
 stack_hash:
-	hash = 1601959
+	hash = 1603339
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 1601959
+	hash = 1603339
 	stack_ok: no errors detected
 
 stack_pop:
@@ -2630,21 +2630,21 @@ stack_pop:
 	popped 77 
 
 stack_hash:
-	hash = 1583846
+	hash = 1585226
 
 stack_hash:
-	hash = 1583846
+	hash = 1585226
 
 stack_ok:
 
 stack_hash:
-	hash = 1583846
+	hash = 1585226
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 1583846
+	hash = 1585226
 	stack_ok: no errors detected
 
 stack_pop:
@@ -2652,12 +2652,12 @@ stack_pop:
 	popped 76 
 
 stack_hash:
-	hash = 1566273
+	hash = 1567653
 
 stack_ok:
 
 stack_hash:
-	hash = 1566273
+	hash = 1567653
 	stack_ok: no errors detected
 
 stack_set_size:
@@ -2668,33 +2668,33 @@ stack_set_size:
 	elements of stack from 76 to 96 are set in poison value
 
 stack_hash:
-	hash = 607978
+	hash = 609358
 
 stack_ok:
 
 stack_hash:
-	hash = 607978
+	hash = 609358
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 607978
+	hash = 609358
 	stack_ok: no errors detected
 
 stack_hash:
-	hash = 607978
+	hash = 609358
 
 stack_ok:
 
 stack_hash:
-	hash = 607978
+	hash = 609358
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 607978
+	hash = 609358
 	stack_ok: no errors detected
 
 stack_pop:
@@ -2702,21 +2702,21 @@ stack_pop:
 	popped 75 
 
 stack_hash:
-	hash = 590937
+	hash = 592317
 
 stack_hash:
-	hash = 590937
+	hash = 592317
 
 stack_ok:
 
 stack_hash:
-	hash = 590937
+	hash = 592317
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 590937
+	hash = 592317
 	stack_ok: no errors detected
 
 stack_pop:
@@ -2724,21 +2724,21 @@ stack_pop:
 	popped 74 
 
 stack_hash:
-	hash = 574420
+	hash = 575800
 
 stack_hash:
-	hash = 574420
+	hash = 575800
 
 stack_ok:
 
 stack_hash:
-	hash = 574420
+	hash = 575800
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 574420
+	hash = 575800
 	stack_ok: no errors detected
 
 stack_pop:
@@ -2746,21 +2746,21 @@ stack_pop:
 	popped 73 
 
 stack_hash:
-	hash = 558419
+	hash = 559799
 
 stack_hash:
-	hash = 558419
+	hash = 559799
 
 stack_ok:
 
 stack_hash:
-	hash = 558419
+	hash = 559799
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 558419
+	hash = 559799
 	stack_ok: no errors detected
 
 stack_pop:
@@ -2768,21 +2768,21 @@ stack_pop:
 	popped 72 
 
 stack_hash:
-	hash = 542926
+	hash = 544306
 
 stack_hash:
-	hash = 542926
+	hash = 544306
 
 stack_ok:
 
 stack_hash:
-	hash = 542926
+	hash = 544306
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 542926
+	hash = 544306
 	stack_ok: no errors detected
 
 stack_pop:
@@ -2790,21 +2790,21 @@ stack_pop:
 	popped 71 
 
 stack_hash:
-	hash = 527933
+	hash = 529313
 
 stack_hash:
-	hash = 527933
+	hash = 529313
 
 stack_ok:
 
 stack_hash:
-	hash = 527933
+	hash = 529313
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 527933
+	hash = 529313
 	stack_ok: no errors detected
 
 stack_pop:
@@ -2812,21 +2812,21 @@ stack_pop:
 	popped 70 
 
 stack_hash:
-	hash = 513432
+	hash = 514812
 
 stack_hash:
-	hash = 513432
+	hash = 514812
 
 stack_ok:
 
 stack_hash:
-	hash = 513432
+	hash = 514812
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 513432
+	hash = 514812
 	stack_ok: no errors detected
 
 stack_pop:
@@ -2834,21 +2834,21 @@ stack_pop:
 	popped 69 
 
 stack_hash:
-	hash = 499415
+	hash = 500795
 
 stack_hash:
-	hash = 499415
+	hash = 500795
 
 stack_ok:
 
 stack_hash:
-	hash = 499415
+	hash = 500795
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 499415
+	hash = 500795
 	stack_ok: no errors detected
 
 stack_pop:
@@ -2856,21 +2856,21 @@ stack_pop:
 	popped 68 
 
 stack_hash:
-	hash = 485874
+	hash = 487254
 
 stack_hash:
-	hash = 485874
+	hash = 487254
 
 stack_ok:
 
 stack_hash:
-	hash = 485874
+	hash = 487254
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 485874
+	hash = 487254
 	stack_ok: no errors detected
 
 stack_pop:
@@ -2878,21 +2878,21 @@ stack_pop:
 	popped 67 
 
 stack_hash:
-	hash = 472801
+	hash = 474181
 
 stack_hash:
-	hash = 472801
+	hash = 474181
 
 stack_ok:
 
 stack_hash:
-	hash = 472801
+	hash = 474181
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 472801
+	hash = 474181
 	stack_ok: no errors detected
 
 stack_pop:
@@ -2900,21 +2900,21 @@ stack_pop:
 	popped 66 
 
 stack_hash:
-	hash = 460188
+	hash = 461568
 
 stack_hash:
-	hash = 460188
+	hash = 461568
 
 stack_ok:
 
 stack_hash:
-	hash = 460188
+	hash = 461568
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 460188
+	hash = 461568
 	stack_ok: no errors detected
 
 stack_pop:
@@ -2922,21 +2922,21 @@ stack_pop:
 	popped 65 
 
 stack_hash:
-	hash = 448027
+	hash = 449407
 
 stack_hash:
-	hash = 448027
+	hash = 449407
 
 stack_ok:
 
 stack_hash:
-	hash = 448027
+	hash = 449407
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 448027
+	hash = 449407
 	stack_ok: no errors detected
 
 stack_pop:
@@ -2944,21 +2944,21 @@ stack_pop:
 	popped 64 
 
 stack_hash:
-	hash = 436310
+	hash = 437690
 
 stack_hash:
-	hash = 436310
+	hash = 437690
 
 stack_ok:
 
 stack_hash:
-	hash = 436310
+	hash = 437690
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 436310
+	hash = 437690
 	stack_ok: no errors detected
 
 stack_pop:
@@ -2966,21 +2966,21 @@ stack_pop:
 	popped 63 
 
 stack_hash:
-	hash = 425029
+	hash = 426409
 
 stack_hash:
-	hash = 425029
+	hash = 426409
 
 stack_ok:
 
 stack_hash:
-	hash = 425029
+	hash = 426409
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 425029
+	hash = 426409
 	stack_ok: no errors detected
 
 stack_pop:
@@ -2988,21 +2988,21 @@ stack_pop:
 	popped 62 
 
 stack_hash:
-	hash = 414176
+	hash = 415556
 
 stack_hash:
-	hash = 414176
+	hash = 415556
 
 stack_ok:
 
 stack_hash:
-	hash = 414176
+	hash = 415556
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 414176
+	hash = 415556
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3010,21 +3010,21 @@ stack_pop:
 	popped 61 
 
 stack_hash:
-	hash = 403743
+	hash = 405123
 
 stack_hash:
-	hash = 403743
+	hash = 405123
 
 stack_ok:
 
 stack_hash:
-	hash = 403743
+	hash = 405123
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 403743
+	hash = 405123
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3032,21 +3032,21 @@ stack_pop:
 	popped 60 
 
 stack_hash:
-	hash = 393722
+	hash = 395102
 
 stack_hash:
-	hash = 393722
+	hash = 395102
 
 stack_ok:
 
 stack_hash:
-	hash = 393722
+	hash = 395102
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 393722
+	hash = 395102
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3054,21 +3054,21 @@ stack_pop:
 	popped 59 
 
 stack_hash:
-	hash = 384105
+	hash = 385485
 
 stack_hash:
-	hash = 384105
+	hash = 385485
 
 stack_ok:
 
 stack_hash:
-	hash = 384105
+	hash = 385485
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 384105
+	hash = 385485
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3076,21 +3076,21 @@ stack_pop:
 	popped 58 
 
 stack_hash:
-	hash = 374884
+	hash = 376264
 
 stack_hash:
-	hash = 374884
+	hash = 376264
 
 stack_ok:
 
 stack_hash:
-	hash = 374884
+	hash = 376264
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 374884
+	hash = 376264
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3098,21 +3098,21 @@ stack_pop:
 	popped 57 
 
 stack_hash:
-	hash = 366051
+	hash = 367431
 
 stack_hash:
-	hash = 366051
+	hash = 367431
 
 stack_ok:
 
 stack_hash:
-	hash = 366051
+	hash = 367431
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 366051
+	hash = 367431
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3120,21 +3120,21 @@ stack_pop:
 	popped 56 
 
 stack_hash:
-	hash = 357598
+	hash = 358978
 
 stack_hash:
-	hash = 357598
+	hash = 358978
 
 stack_ok:
 
 stack_hash:
-	hash = 357598
+	hash = 358978
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 357598
+	hash = 358978
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3142,21 +3142,21 @@ stack_pop:
 	popped 55 
 
 stack_hash:
-	hash = 349517
+	hash = 350897
 
 stack_hash:
-	hash = 349517
+	hash = 350897
 
 stack_ok:
 
 stack_hash:
-	hash = 349517
+	hash = 350897
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 349517
+	hash = 350897
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3164,21 +3164,21 @@ stack_pop:
 	popped 54 
 
 stack_hash:
-	hash = 341800
+	hash = 343180
 
 stack_hash:
-	hash = 341800
+	hash = 343180
 
 stack_ok:
 
 stack_hash:
-	hash = 341800
+	hash = 343180
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 341800
+	hash = 343180
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3186,21 +3186,21 @@ stack_pop:
 	popped 53 
 
 stack_hash:
-	hash = 334439
+	hash = 335819
 
 stack_hash:
-	hash = 334439
+	hash = 335819
 
 stack_ok:
 
 stack_hash:
-	hash = 334439
+	hash = 335819
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 334439
+	hash = 335819
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3208,21 +3208,21 @@ stack_pop:
 	popped 52 
 
 stack_hash:
-	hash = 327426
+	hash = 328806
 
 stack_hash:
-	hash = 327426
+	hash = 328806
 
 stack_ok:
 
 stack_hash:
-	hash = 327426
+	hash = 328806
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 327426
+	hash = 328806
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3230,21 +3230,21 @@ stack_pop:
 	popped 51 
 
 stack_hash:
-	hash = 320753
+	hash = 322133
 
 stack_hash:
-	hash = 320753
+	hash = 322133
 
 stack_ok:
 
 stack_hash:
-	hash = 320753
+	hash = 322133
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 320753
+	hash = 322133
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3252,21 +3252,21 @@ stack_pop:
 	popped 50 
 
 stack_hash:
-	hash = 314412
+	hash = 315792
 
 stack_hash:
-	hash = 314412
+	hash = 315792
 
 stack_ok:
 
 stack_hash:
-	hash = 314412
+	hash = 315792
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 314412
+	hash = 315792
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3274,21 +3274,21 @@ stack_pop:
 	popped 49 
 
 stack_hash:
-	hash = 308395
+	hash = 309775
 
 stack_hash:
-	hash = 308395
+	hash = 309775
 
 stack_ok:
 
 stack_hash:
-	hash = 308395
+	hash = 309775
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 308395
+	hash = 309775
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3296,21 +3296,21 @@ stack_pop:
 	popped 48 
 
 stack_hash:
-	hash = 302694
+	hash = 304074
 
 stack_hash:
-	hash = 302694
+	hash = 304074
 
 stack_ok:
 
 stack_hash:
-	hash = 302694
+	hash = 304074
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 302694
+	hash = 304074
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3318,21 +3318,21 @@ stack_pop:
 	popped 47 
 
 stack_hash:
-	hash = 297301
+	hash = 298681
 
 stack_hash:
-	hash = 297301
+	hash = 298681
 
 stack_ok:
 
 stack_hash:
-	hash = 297301
+	hash = 298681
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 297301
+	hash = 298681
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3340,21 +3340,21 @@ stack_pop:
 	popped 46 
 
 stack_hash:
-	hash = 292208
+	hash = 293588
 
 stack_hash:
-	hash = 292208
+	hash = 293588
 
 stack_ok:
 
 stack_hash:
-	hash = 292208
+	hash = 293588
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 292208
+	hash = 293588
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3362,21 +3362,21 @@ stack_pop:
 	popped 45 
 
 stack_hash:
-	hash = 287407
+	hash = 288787
 
 stack_hash:
-	hash = 287407
+	hash = 288787
 
 stack_ok:
 
 stack_hash:
-	hash = 287407
+	hash = 288787
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 287407
+	hash = 288787
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3384,21 +3384,21 @@ stack_pop:
 	popped 44 
 
 stack_hash:
-	hash = 282890
+	hash = 284270
 
 stack_hash:
-	hash = 282890
+	hash = 284270
 
 stack_ok:
 
 stack_hash:
-	hash = 282890
+	hash = 284270
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 282890
+	hash = 284270
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3406,21 +3406,21 @@ stack_pop:
 	popped 43 
 
 stack_hash:
-	hash = 278649
+	hash = 280029
 
 stack_hash:
-	hash = 278649
+	hash = 280029
 
 stack_ok:
 
 stack_hash:
-	hash = 278649
+	hash = 280029
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 278649
+	hash = 280029
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3428,21 +3428,21 @@ stack_pop:
 	popped 42 
 
 stack_hash:
-	hash = 274676
+	hash = 276056
 
 stack_hash:
-	hash = 274676
+	hash = 276056
 
 stack_ok:
 
 stack_hash:
-	hash = 274676
+	hash = 276056
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 274676
+	hash = 276056
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3450,21 +3450,21 @@ stack_pop:
 	popped 41 
 
 stack_hash:
-	hash = 270963
+	hash = 272343
 
 stack_hash:
-	hash = 270963
+	hash = 272343
 
 stack_ok:
 
 stack_hash:
-	hash = 270963
+	hash = 272343
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 270963
+	hash = 272343
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3472,21 +3472,21 @@ stack_pop:
 	popped 40 
 
 stack_hash:
-	hash = 267502
+	hash = 268882
 
 stack_hash:
-	hash = 267502
+	hash = 268882
 
 stack_ok:
 
 stack_hash:
-	hash = 267502
+	hash = 268882
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 267502
+	hash = 268882
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3494,21 +3494,21 @@ stack_pop:
 	popped 39 
 
 stack_hash:
-	hash = 264285
+	hash = 265665
 
 stack_hash:
-	hash = 264285
+	hash = 265665
 
 stack_ok:
 
 stack_hash:
-	hash = 264285
+	hash = 265665
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 264285
+	hash = 265665
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3516,21 +3516,21 @@ stack_pop:
 	popped 38 
 
 stack_hash:
-	hash = 261304
+	hash = 262684
 
 stack_hash:
-	hash = 261304
+	hash = 262684
 
 stack_ok:
 
 stack_hash:
-	hash = 261304
+	hash = 262684
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 261304
+	hash = 262684
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3538,21 +3538,21 @@ stack_pop:
 	popped 37 
 
 stack_hash:
-	hash = 258551
+	hash = 259931
 
 stack_hash:
-	hash = 258551
+	hash = 259931
 
 stack_ok:
 
 stack_hash:
-	hash = 258551
+	hash = 259931
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 258551
+	hash = 259931
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3560,21 +3560,21 @@ stack_pop:
 	popped 36 
 
 stack_hash:
-	hash = 256018
+	hash = 257398
 
 stack_hash:
-	hash = 256018
+	hash = 257398
 
 stack_ok:
 
 stack_hash:
-	hash = 256018
+	hash = 257398
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 256018
+	hash = 257398
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3582,21 +3582,21 @@ stack_pop:
 	popped 35 
 
 stack_hash:
-	hash = 253697
+	hash = 255077
 
 stack_hash:
-	hash = 253697
+	hash = 255077
 
 stack_ok:
 
 stack_hash:
-	hash = 253697
+	hash = 255077
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 253697
+	hash = 255077
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3604,21 +3604,21 @@ stack_pop:
 	popped 34 
 
 stack_hash:
-	hash = 251580
+	hash = 252960
 
 stack_hash:
-	hash = 251580
+	hash = 252960
 
 stack_ok:
 
 stack_hash:
-	hash = 251580
+	hash = 252960
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 251580
+	hash = 252960
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3626,21 +3626,21 @@ stack_pop:
 	popped 33 
 
 stack_hash:
-	hash = 249659
+	hash = 251039
 
 stack_hash:
-	hash = 249659
+	hash = 251039
 
 stack_ok:
 
 stack_hash:
-	hash = 249659
+	hash = 251039
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 249659
+	hash = 251039
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3648,21 +3648,21 @@ stack_pop:
 	popped 32 
 
 stack_hash:
-	hash = 247926
+	hash = 249306
 
 stack_hash:
-	hash = 247926
+	hash = 249306
 
 stack_ok:
 
 stack_hash:
-	hash = 247926
+	hash = 249306
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 247926
+	hash = 249306
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3670,21 +3670,21 @@ stack_pop:
 	popped 31 
 
 stack_hash:
-	hash = 246373
+	hash = 247753
 
 stack_hash:
-	hash = 246373
+	hash = 247753
 
 stack_ok:
 
 stack_hash:
-	hash = 246373
+	hash = 247753
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 246373
+	hash = 247753
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3692,21 +3692,21 @@ stack_pop:
 	popped 30 
 
 stack_hash:
-	hash = 244992
+	hash = 246372
 
 stack_hash:
-	hash = 244992
+	hash = 246372
 
 stack_ok:
 
 stack_hash:
-	hash = 244992
+	hash = 246372
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 244992
+	hash = 246372
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3714,21 +3714,21 @@ stack_pop:
 	popped 29 
 
 stack_hash:
-	hash = 243775
+	hash = 245155
 
 stack_hash:
-	hash = 243775
+	hash = 245155
 
 stack_ok:
 
 stack_hash:
-	hash = 243775
+	hash = 245155
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 243775
+	hash = 245155
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3736,21 +3736,21 @@ stack_pop:
 	popped 28 
 
 stack_hash:
-	hash = 242714
+	hash = 244094
 
 stack_hash:
-	hash = 242714
+	hash = 244094
 
 stack_ok:
 
 stack_hash:
-	hash = 242714
+	hash = 244094
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 242714
+	hash = 244094
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3758,12 +3758,12 @@ stack_pop:
 	popped 27 
 
 stack_hash:
-	hash = 241801
+	hash = 243181
 
 stack_ok:
 
 stack_hash:
-	hash = 241801
+	hash = 243181
 	stack_ok: no errors detected
 
 stack_set_size:
@@ -3774,33 +3774,33 @@ stack_set_size:
 	elements of stack from 27 to 47 are set in poison value
 
 stack_hash:
-	hash = 28014
+	hash = 29394
 
 stack_ok:
 
 stack_hash:
-	hash = 28014
+	hash = 29394
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 28014
+	hash = 29394
 	stack_ok: no errors detected
 
 stack_hash:
-	hash = 28014
+	hash = 29394
 
 stack_ok:
 
 stack_hash:
-	hash = 28014
+	hash = 29394
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 28014
+	hash = 29394
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3808,21 +3808,21 @@ stack_pop:
 	popped 26 
 
 stack_hash:
-	hash = 27241
+	hash = 28621
 
 stack_hash:
-	hash = 27241
+	hash = 28621
 
 stack_ok:
 
 stack_hash:
-	hash = 27241
+	hash = 28621
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 27241
+	hash = 28621
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3830,21 +3830,21 @@ stack_pop:
 	popped 25 
 
 stack_hash:
-	hash = 26600
+	hash = 27980
 
 stack_hash:
-	hash = 26600
+	hash = 27980
 
 stack_ok:
 
 stack_hash:
-	hash = 26600
+	hash = 27980
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 26600
+	hash = 27980
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3852,21 +3852,21 @@ stack_pop:
 	popped 24 
 
 stack_hash:
-	hash = 26083
+	hash = 27463
 
 stack_hash:
-	hash = 26083
+	hash = 27463
 
 stack_ok:
 
 stack_hash:
-	hash = 26083
+	hash = 27463
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 26083
+	hash = 27463
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3874,21 +3874,21 @@ stack_pop:
 	popped 23 
 
 stack_hash:
-	hash = 25682
+	hash = 27062
 
 stack_hash:
-	hash = 25682
+	hash = 27062
 
 stack_ok:
 
 stack_hash:
-	hash = 25682
+	hash = 27062
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 25682
+	hash = 27062
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3896,21 +3896,21 @@ stack_pop:
 	popped 22 
 
 stack_hash:
-	hash = 25389
+	hash = 26769
 
 stack_hash:
-	hash = 25389
+	hash = 26769
 
 stack_ok:
 
 stack_hash:
-	hash = 25389
+	hash = 26769
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 25389
+	hash = 26769
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3918,21 +3918,21 @@ stack_pop:
 	popped 21 
 
 stack_hash:
-	hash = 25196
+	hash = 26576
 
 stack_hash:
-	hash = 25196
+	hash = 26576
 
 stack_ok:
 
 stack_hash:
-	hash = 25196
+	hash = 26576
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 25196
+	hash = 26576
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3940,21 +3940,21 @@ stack_pop:
 	popped 20 
 
 stack_hash:
-	hash = 25095
+	hash = 26475
 
 stack_hash:
-	hash = 25095
+	hash = 26475
 
 stack_ok:
 
 stack_hash:
-	hash = 25095
+	hash = 26475
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 25095
+	hash = 26475
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3962,21 +3962,21 @@ stack_pop:
 	popped 19 
 
 stack_hash:
-	hash = 25078
+	hash = 26458
 
 stack_hash:
-	hash = 25078
+	hash = 26458
 
 stack_ok:
 
 stack_hash:
-	hash = 25078
+	hash = 26458
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 25078
+	hash = 26458
 	stack_ok: no errors detected
 
 stack_pop:
@@ -3984,21 +3984,21 @@ stack_pop:
 	popped 18 
 
 stack_hash:
-	hash = 25137
+	hash = 26517
 
 stack_hash:
-	hash = 25137
+	hash = 26517
 
 stack_ok:
 
 stack_hash:
-	hash = 25137
+	hash = 26517
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 25137
+	hash = 26517
 	stack_ok: no errors detected
 
 stack_pop:
@@ -4006,21 +4006,21 @@ stack_pop:
 	popped 17 
 
 stack_hash:
-	hash = 25264
+	hash = 26644
 
 stack_hash:
-	hash = 25264
+	hash = 26644
 
 stack_ok:
 
 stack_hash:
-	hash = 25264
+	hash = 26644
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 25264
+	hash = 26644
 	stack_ok: no errors detected
 
 stack_pop:
@@ -4028,21 +4028,21 @@ stack_pop:
 	popped 16 
 
 stack_hash:
-	hash = 25451
+	hash = 26831
 
 stack_hash:
-	hash = 25451
+	hash = 26831
 
 stack_ok:
 
 stack_hash:
-	hash = 25451
+	hash = 26831
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 25451
+	hash = 26831
 	stack_ok: no errors detected
 
 stack_pop:
@@ -4050,21 +4050,21 @@ stack_pop:
 	popped 15 
 
 stack_hash:
-	hash = 25690
+	hash = 27070
 
 stack_hash:
-	hash = 25690
+	hash = 27070
 
 stack_ok:
 
 stack_hash:
-	hash = 25690
+	hash = 27070
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 25690
+	hash = 27070
 	stack_ok: no errors detected
 
 stack_pop:
@@ -4072,21 +4072,21 @@ stack_pop:
 	popped 14 
 
 stack_hash:
-	hash = 25973
+	hash = 27353
 
 stack_hash:
-	hash = 25973
+	hash = 27353
 
 stack_ok:
 
 stack_hash:
-	hash = 25973
+	hash = 27353
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 25973
+	hash = 27353
 	stack_ok: no errors detected
 
 stack_pop:
@@ -4094,21 +4094,21 @@ stack_pop:
 	popped 13 
 
 stack_hash:
-	hash = 26292
+	hash = 27672
 
 stack_hash:
-	hash = 26292
+	hash = 27672
 
 stack_ok:
 
 stack_hash:
-	hash = 26292
+	hash = 27672
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 26292
+	hash = 27672
 	stack_ok: no errors detected
 
 stack_pop:
@@ -4116,21 +4116,21 @@ stack_pop:
 	popped 12 
 
 stack_hash:
-	hash = 26639
+	hash = 28019
 
 stack_hash:
-	hash = 26639
+	hash = 28019
 
 stack_ok:
 
 stack_hash:
-	hash = 26639
+	hash = 28019
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 26639
+	hash = 28019
 	stack_ok: no errors detected
 
 stack_pop:
@@ -4138,21 +4138,21 @@ stack_pop:
 	popped 11 
 
 stack_hash:
-	hash = 27006
+	hash = 28386
 
 stack_hash:
-	hash = 27006
+	hash = 28386
 
 stack_ok:
 
 stack_hash:
-	hash = 27006
+	hash = 28386
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 27006
+	hash = 28386
 	stack_ok: no errors detected
 
 stack_pop:
@@ -4160,21 +4160,21 @@ stack_pop:
 	popped 10 
 
 stack_hash:
-	hash = 27385
+	hash = 28765
 
 stack_hash:
-	hash = 27385
+	hash = 28765
 
 stack_ok:
 
 stack_hash:
-	hash = 27385
+	hash = 28765
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 27385
+	hash = 28765
 	stack_ok: no errors detected
 
 stack_pop:
@@ -4182,21 +4182,21 @@ stack_pop:
 	popped 9 
 
 stack_hash:
-	hash = 27768
+	hash = 29148
 
 stack_hash:
-	hash = 27768
+	hash = 29148
 
 stack_ok:
 
 stack_hash:
-	hash = 27768
+	hash = 29148
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 27768
+	hash = 29148
 	stack_ok: no errors detected
 
 stack_pop:
@@ -4204,21 +4204,21 @@ stack_pop:
 	popped 8 
 
 stack_hash:
-	hash = 28147
+	hash = 29527
 
 stack_hash:
-	hash = 28147
+	hash = 29527
 
 stack_ok:
 
 stack_hash:
-	hash = 28147
+	hash = 29527
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 28147
+	hash = 29527
 	stack_ok: no errors detected
 
 stack_pop:
@@ -4226,21 +4226,21 @@ stack_pop:
 	popped 7 
 
 stack_hash:
-	hash = 28514
+	hash = 29894
 
 stack_hash:
-	hash = 28514
+	hash = 29894
 
 stack_ok:
 
 stack_hash:
-	hash = 28514
+	hash = 29894
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 28514
+	hash = 29894
 	stack_ok: no errors detected
 
 stack_pop:
@@ -4248,21 +4248,21 @@ stack_pop:
 	popped 6 
 
 stack_hash:
-	hash = 28861
+	hash = 30241
 
 stack_hash:
-	hash = 28861
+	hash = 30241
 
 stack_ok:
 
 stack_hash:
-	hash = 28861
+	hash = 30241
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 28861
+	hash = 30241
 	stack_ok: no errors detected
 
 stack_pop:
@@ -4270,21 +4270,21 @@ stack_pop:
 	popped 5 
 
 stack_hash:
-	hash = 29180
+	hash = 30560
 
 stack_hash:
-	hash = 29180
+	hash = 30560
 
 stack_ok:
 
 stack_hash:
-	hash = 29180
+	hash = 30560
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 29180
+	hash = 30560
 	stack_ok: no errors detected
 
 stack_pop:
@@ -4292,21 +4292,21 @@ stack_pop:
 	popped 4 
 
 stack_hash:
-	hash = 29463
+	hash = 30843
 
 stack_hash:
-	hash = 29463
+	hash = 30843
 
 stack_ok:
 
 stack_hash:
-	hash = 29463
+	hash = 30843
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = 29463
+	hash = 30843
 	stack_ok: no errors detected
 
 stack_pop:
@@ -4314,12 +4314,12 @@ stack_pop:
 	popped 3 
 
 stack_hash:
-	hash = 29702
+	hash = 31082
 
 stack_ok:
 
 stack_hash:
-	hash = 29702
+	hash = 31082
 	stack_ok: no errors detected
 
 stack_set_size:
@@ -4330,33 +4330,33 @@ stack_set_size:
 	elements of stack from 3 to 23 are set in poison value
 
 stack_hash:
-	hash = -8434
+	hash = -7054
 
 stack_ok:
 
 stack_hash:
-	hash = -8434
+	hash = -7054
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = -8434
+	hash = -7054
 	stack_ok: no errors detected
 
 stack_hash:
-	hash = -8434
+	hash = -7054
 
 stack_ok:
 
 stack_hash:
-	hash = -8434
+	hash = -7054
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = -8434
+	hash = -7054
 	stack_ok: no errors detected
 
 stack_pop:
@@ -4364,21 +4364,21 @@ stack_pop:
 	popped 2 
 
 stack_hash:
-	hash = -8247
+	hash = -6867
 
 stack_hash:
-	hash = -8247
+	hash = -6867
 
 stack_ok:
 
 stack_hash:
-	hash = -8247
+	hash = -6867
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = -8247
+	hash = -6867
 	stack_ok: no errors detected
 
 stack_pop:
@@ -4386,21 +4386,21 @@ stack_pop:
 	popped 1 
 
 stack_hash:
-	hash = -8120
+	hash = -6740
 
 stack_hash:
-	hash = -8120
+	hash = -6740
 
 stack_ok:
 
 stack_hash:
-	hash = -8120
+	hash = -6740
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = -8120
+	hash = -6740
 	stack_ok: no errors detected
 
 stack_pop:
@@ -4408,23 +4408,23 @@ stack_pop:
 	popped 0 
 
 stack_hash:
-	hash = -8061
+	hash = -6681
 
 stack_hash:
-	hash = -8061
+	hash = -6681
 
 stack_ok:
 
 stack_hash:
-	hash = -8061
+	hash = -6681
 	stack_ok: no errors detected
 					 STACK_DUMP:
-Stack "stk" [00BE1690]  (ok)
+Stack "stk" [00FC1690]  (ok)
 {
 	 canary1 = -1737075662
 	 size = 0
 	 capacity = 24
-	 data[24 elem.] = [00BE44B0]
+	 data[24 elem.] = [00FC44B0]
 		 data_canary1 = -1416824409
 		   [0] = -999    (POISON?) 
 		   [1] = -999    (POISON?) 
@@ -4453,7 +4453,7 @@ Stack "stk" [00BE1690]  (ok)
 		 data_canary2 = -1416824409
 	 canary2 = -1412567278
 
-	 hash = -8061
+	 hash = -6681
 	 error_number = NO_ERROR
 
 }
@@ -4463,19 +4463,19 @@ stack_dump: finished
 stack_ok:
 
 stack_hash:
-	hash = -8061
+	hash = -6681
 	stack_ok: no errors detected
 
 stack_pop:
 
 stack_ok:
 					 STACK_DUMP:
-Stack "stk" [00BE1690]  (ERROR!!!)
+Stack "stk" [00FC1690]  (ERROR!!!)
 {
 	 canary1 = -1737075662
 	 size = 0
 	 capacity = 24
-	 data[24 elem.] = [00BE44B0]
+	 data[24 elem.] = [00FC44B0]
 		 data_canary1 = -1416824409
 		   [0] = -999    (POISON?) 
 		   [1] = -999    (POISON?) 
@@ -4504,7 +4504,7 @@ Stack "stk" [00BE1690]  (ERROR!!!)
 		 data_canary2 = -1416824409
 	 canary2 = -1412567278
 
-	 hash = -8061
+	 hash = -6681
 	 error_number = UNDERFLOW_ERR: can't pop an element, stack is empty
 
 }

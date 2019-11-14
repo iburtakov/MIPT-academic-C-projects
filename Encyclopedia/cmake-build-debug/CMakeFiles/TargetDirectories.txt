@@ -1,0 +1,3 @@
+C:/dev/MIPT-academic-C-projects/Encyclopedia/cmake-build-debug/CMakeFiles/Encyclopedia.dir
+C:/dev/MIPT-academic-C-projects/Encyclopedia/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/dev/MIPT-academic-C-projects/Encyclopedia/cmake-build-debug/CMakeFiles/rebuild_cache.dir

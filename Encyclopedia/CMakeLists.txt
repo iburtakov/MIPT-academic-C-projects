@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.12)
-project(TestProgramFile)
+project(Encyclopedia)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(TestProgramFile main.cpp FileIO.cpp Sort.cpp UnitTest.h)
+add_executable(Encyclopedia main.cpp FileIO.cpp FileIO.h Sort.cpp UNITTESTS.h)

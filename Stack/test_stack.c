@@ -15,7 +15,7 @@
 void test_stack_create(int n){
     MODULE(n);
 
-    Stack *stk = stack_create("log_log_file.txt", "stk");
+    Stack *stk = stack_create("log_file.txt", "stk");
 
     unit_test(1, stack_ok(stk), 0);
 
@@ -25,7 +25,7 @@ void test_stack_create(int n){
 void test_stack_set_size(int n){
     MODULE(n);
 
-    Stack *stk  = stack_create("log_log_file.txt", "stk");
+    Stack *stk  = stack_create("log_file.txt", "stk");
 
     data_t x = 0;
 
@@ -61,7 +61,7 @@ void test_stack_set_size(int n){
 void test_stack_push_pop(int n){
     MODULE(n);
 
-    Stack *stk  = stack_create("log_log_file.txt", "stk");
+    Stack *stk  = stack_create("log_file.txt", "stk");
 
     data_t x = 0;
 

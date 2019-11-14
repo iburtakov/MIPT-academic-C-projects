@@ -25,6 +25,7 @@ int stack_clear(Stack *stk){
 
 	for(int i = 0; i < stk->size; i++){
 #ifdef CAN_P
+	    //shift in data because of canary
 	*(data_t*)(stk->data + sizeof(stack_data_canary) + i * sizeof(data_t)) = POISON;
 #else
 		stk->data[i] = POISON;
@@ -382,7 +383,9 @@ Stack *stack_create(const char *log_file, const char *stack_name){
 		return NULL;
 	}
 
+	errno = 0;
 	FILE *file = fopen(log_file, "a");
+	//printf("%d\n", errno);
 
 	if(!file){
 		printf("Can't open log file!\n");

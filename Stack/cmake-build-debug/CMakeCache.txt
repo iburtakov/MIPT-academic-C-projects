@@ -150,7 +150,7 @@ CMAKE_OBJCOPY:FILEPATH=C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-r
 CMAKE_OBJDUMP:FILEPATH=C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/objdump.exe
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=equation
+CMAKE_PROJECT_NAME:STATIC=stack
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/ranlib.exe
@@ -243,6 +243,12 @@ equation_BINARY_DIR:STATIC=C:/dev/MIPT-academic-C-projects/Stack/cmake-build-deb
 
 //Value Computed by CMake
 equation_SOURCE_DIR:STATIC=C:/dev/MIPT-academic-C-projects/Stack
+
+//Value Computed by CMake
+stack_BINARY_DIR:STATIC=C:/dev/MIPT-academic-C-projects/Stack/cmake-build-debug
+
+//Value Computed by CMake
+stack_SOURCE_DIR:STATIC=C:/dev/MIPT-academic-C-projects/Stack
 
 
 ########################

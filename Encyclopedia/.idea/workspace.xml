@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
-    <generated />
+    <generated>
+      <config projectName="Encyclopedia" targetName="Encyclopedia" />
+    </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
@@ -33,6 +35,7 @@
     <expand />
     <select />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FUSProjectUsageTrigger">
     <session id="1537995560">
       <usages-collector id="statistics.lifecycle.project">
@@ -111,31 +114,42 @@
     <session id="-2067984766">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.0" value="4" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="6" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="2" />
-          <entry key="h" value="5" />
+          <entry key="cpp" value="5" />
+          <entry key="h" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="7" />
+          <entry key="ObjectiveC" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="txt" value="29" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CMakeLists.txt" value="29" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+              <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -143,17 +157,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1032">
+            <state relative-caret-position="522">
               <caret line="94" selection-start-line="94" selection-end-line="94" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FileIO.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="206" column="40" lean-forward="true" selection-start-line="206" selection-start-column="3" selection-end-line="206" selection-end-column="40" />
+            <state relative-caret-position="614">
+              <caret line="155" column="53" selection-start-line="155" selection-start-column="53" selection-end-line="155" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -207,7 +221,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Sort.cpp" />
         <option value="$PROJECT_DIR$/UnitTest.cpp" />
         <option value="$PROJECT_DIR$/Sort.h" />
@@ -215,6 +228,7 @@
         <option value="$PROJECT_DIR$/UNITTESTS.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/FileIO.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -239,7 +253,7 @@
         <subPane>
           <expand>
             <path>
-              <item name="TestProgramFile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Encyclopedia" type="b2602c69:ProjectViewProjectNode" />
               <item name="Encyclopedia" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -251,7 +265,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Stack" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../equation" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -273,7 +287,12 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestProgramFile" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TestProgramFile" TARGET_NAME="TestProgramFile" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TestProgramFile" RUN_TARGET_NAME="TestProgramFile">
+    <configuration name="Encyclopedia" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Encyclopedia" TARGET_NAME="Encyclopedia" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Encyclopedia" RUN_TARGET_NAME="Encyclopedia">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestProgramFile" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Encyclopedia" TARGET_NAME="TestProgramFile" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Encyclopedia" RUN_TARGET_NAME="TestProgramFile">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -281,6 +300,7 @@
     <list>
       <item itemvalue="Application.Build All" />
       <item itemvalue="Application.TestProgramFile" />
+      <item itemvalue="Application.Encyclopedia" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -309,16 +329,19 @@
       <workItem from="1573165296485" duration="46000" />
       <workItem from="1573166615484" duration="80000" />
       <workItem from="1573167691746" duration="145000" />
+      <workItem from="1573735659946" duration="366000" />
+      <workItem from="1573737964042" duration="262000" />
+      <workItem from="1573738236208" duration="110000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22328000" />
+    <option name="totallyTimeSpent" value="23066000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19932885" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20738254" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -332,8 +355,8 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.34468085" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="CMake" order="11" visible="true" weight="0.14326242" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3744681" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.2070922" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.3744681" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -370,13 +393,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/UnitTest.cpp" />
     <entry file="file://$PROJECT_DIR$/UnitTest.h" />
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FileIO.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -405,17 +421,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FileIO.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="614">
+          <caret line="155" column="53" selection-start-line="155" selection-start-column="53" selection-end-line="155" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1032">
+        <state relative-caret-position="522">
           <caret line="94" selection-start-line="94" selection-end-line="94" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FileIO.cpp">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="206" column="40" lean-forward="true" selection-start-line="206" selection-start-column="3" selection-end-line="206" selection-end-column="40" />
+        <state relative-caret-position="85">
+          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
         </state>
       </provider>
     </entry>

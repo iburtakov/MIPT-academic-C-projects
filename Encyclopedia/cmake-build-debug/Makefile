@@ -47,24 +47,13 @@ RM = "C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\dev\I.Lab\Encyclopedia
+CMAKE_SOURCE_DIR = C:\dev\MIPT-academic-C-projects\Encyclopedia
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\dev\I.Lab\Encyclopedia\cmake-build-debug
+CMAKE_BINARY_DIR = C:\dev\MIPT-academic-C-projects\Encyclopedia\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -77,11 +66,22 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\dev\I.Lab\Encyclopedia\cmake-build-debug\CMakeFiles C:\dev\I.Lab\Encyclopedia\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\dev\MIPT-academic-C-projects\Encyclopedia\cmake-build-debug\CMakeFiles C:\dev\MIPT-academic-C-projects\Encyclopedia\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\dev\I.Lab\Encyclopedia\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\dev\MIPT-academic-C-projects\Encyclopedia\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named TestProgramFile
+# Target rules for targets named Encyclopedia
 
 # Build rule for target.
-TestProgramFile: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 TestProgramFile
-.PHONY : TestProgramFile
+Encyclopedia: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Encyclopedia
+.PHONY : Encyclopedia
 
 # fast build rule for target.
-TestProgramFile/fast:
-	$(MAKE) -f CMakeFiles\TestProgramFile.dir\build.make CMakeFiles/TestProgramFile.dir/build
-.PHONY : TestProgramFile/fast
+Encyclopedia/fast:
+	$(MAKE) -f CMakeFiles\Encyclopedia.dir\build.make CMakeFiles/Encyclopedia.dir/build
+.PHONY : Encyclopedia/fast
 
 FileIO.obj: FileIO.cpp.obj
 
@@ -128,7 +128,7 @@ FileIO.obj: FileIO.cpp.obj
 
 # target to build an object file
 FileIO.cpp.obj:
-	$(MAKE) -f CMakeFiles\TestProgramFile.dir\build.make CMakeFiles/TestProgramFile.dir/FileIO.cpp.obj
+	$(MAKE) -f CMakeFiles\Encyclopedia.dir\build.make CMakeFiles/Encyclopedia.dir/FileIO.cpp.obj
 .PHONY : FileIO.cpp.obj
 
 FileIO.i: FileIO.cpp.i
@@ -137,7 +137,7 @@ FileIO.i: FileIO.cpp.i
 
 # target to preprocess a source file
 FileIO.cpp.i:
-	$(MAKE) -f CMakeFiles\TestProgramFile.dir\build.make CMakeFiles/TestProgramFile.dir/FileIO.cpp.i
+	$(MAKE) -f CMakeFiles\Encyclopedia.dir\build.make CMakeFiles/Encyclopedia.dir/FileIO.cpp.i
 .PHONY : FileIO.cpp.i
 
 FileIO.s: FileIO.cpp.s
@@ -146,7 +146,7 @@ FileIO.s: FileIO.cpp.s
 
 # target to generate assembly for a file
 FileIO.cpp.s:
-	$(MAKE) -f CMakeFiles\TestProgramFile.dir\build.make CMakeFiles/TestProgramFile.dir/FileIO.cpp.s
+	$(MAKE) -f CMakeFiles\Encyclopedia.dir\build.make CMakeFiles/Encyclopedia.dir/FileIO.cpp.s
 .PHONY : FileIO.cpp.s
 
 Sort.obj: Sort.cpp.obj
@@ -155,7 +155,7 @@ Sort.obj: Sort.cpp.obj
 
 # target to build an object file
 Sort.cpp.obj:
-	$(MAKE) -f CMakeFiles\TestProgramFile.dir\build.make CMakeFiles/TestProgramFile.dir/Sort.cpp.obj
+	$(MAKE) -f CMakeFiles\Encyclopedia.dir\build.make CMakeFiles/Encyclopedia.dir/Sort.cpp.obj
 .PHONY : Sort.cpp.obj
 
 Sort.i: Sort.cpp.i
@@ -164,7 +164,7 @@ Sort.i: Sort.cpp.i
 
 # target to preprocess a source file
 Sort.cpp.i:
-	$(MAKE) -f CMakeFiles\TestProgramFile.dir\build.make CMakeFiles/TestProgramFile.dir/Sort.cpp.i
+	$(MAKE) -f CMakeFiles\Encyclopedia.dir\build.make CMakeFiles/Encyclopedia.dir/Sort.cpp.i
 .PHONY : Sort.cpp.i
 
 Sort.s: Sort.cpp.s
@@ -173,7 +173,7 @@ Sort.s: Sort.cpp.s
 
 # target to generate assembly for a file
 Sort.cpp.s:
-	$(MAKE) -f CMakeFiles\TestProgramFile.dir\build.make CMakeFiles/TestProgramFile.dir/Sort.cpp.s
+	$(MAKE) -f CMakeFiles\Encyclopedia.dir\build.make CMakeFiles/Encyclopedia.dir/Sort.cpp.s
 .PHONY : Sort.cpp.s
 
 main.obj: main.cpp.obj
@@ -182,7 +182,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\TestProgramFile.dir\build.make CMakeFiles/TestProgramFile.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\Encyclopedia.dir\build.make CMakeFiles/Encyclopedia.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -191,7 +191,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\TestProgramFile.dir\build.make CMakeFiles/TestProgramFile.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\Encyclopedia.dir\build.make CMakeFiles/Encyclopedia.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -200,7 +200,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\TestProgramFile.dir\build.make CMakeFiles/TestProgramFile.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\Encyclopedia.dir\build.make CMakeFiles/Encyclopedia.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -209,9 +209,9 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... rebuild_cache
-	@echo ... TestProgramFile
+	@echo ... Encyclopedia
 	@echo ... edit_cache
+	@echo ... rebuild_cache
 	@echo ... FileIO.obj
 	@echo ... FileIO.i
 	@echo ... FileIO.s
