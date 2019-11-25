@@ -48,52 +48,67 @@ CMAKE_SOURCE_DIR = C:\dev\MIPT-academic-C-projects\Stack
 CMAKE_BINARY_DIR = C:\dev\MIPT-academic-C-projects\Stack\cmake-build-debug
 
 # Include any dependencies generated for this target.
-include CMakeFiles/Stack.dir/depend.make
+include CMakeFiles/stack.dir/depend.make
 
 # Include the progress variables for this target.
-include CMakeFiles/Stack.dir/progress.make
+include CMakeFiles/stack.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include CMakeFiles/Stack.dir/flags.make
+include CMakeFiles/stack.dir/flags.make
 
-CMakeFiles/Stack.dir/stack.c.obj: CMakeFiles/Stack.dir/flags.make
-CMakeFiles/Stack.dir/stack.c.obj: ../stack.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\dev\MIPT-academic-C-projects\Stack\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Stack.dir/stack.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Stack.dir\stack.c.obj   -c C:\dev\MIPT-academic-C-projects\Stack\stack.c
+CMakeFiles/stack.dir/stack.c.obj: CMakeFiles/stack.dir/flags.make
+CMakeFiles/stack.dir/stack.c.obj: ../stack.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\dev\MIPT-academic-C-projects\Stack\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/stack.dir/stack.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\stack.dir\stack.c.obj   -c C:\dev\MIPT-academic-C-projects\Stack\stack.c
 
-CMakeFiles/Stack.dir/stack.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Stack.dir/stack.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\dev\MIPT-academic-C-projects\Stack\stack.c > CMakeFiles\Stack.dir\stack.c.i
+CMakeFiles/stack.dir/stack.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stack.dir/stack.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\dev\MIPT-academic-C-projects\Stack\stack.c > CMakeFiles\stack.dir\stack.c.i
 
-CMakeFiles/Stack.dir/stack.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Stack.dir/stack.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\dev\MIPT-academic-C-projects\Stack\stack.c -o CMakeFiles\Stack.dir\stack.c.s
+CMakeFiles/stack.dir/stack.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stack.dir/stack.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\dev\MIPT-academic-C-projects\Stack\stack.c -o CMakeFiles\stack.dir\stack.c.s
 
-# Object files for target Stack
-Stack_OBJECTS = \
-"CMakeFiles/Stack.dir/stack.c.obj"
+CMakeFiles/stack.dir/test_stack.c.obj: CMakeFiles/stack.dir/flags.make
+CMakeFiles/stack.dir/test_stack.c.obj: ../test_stack.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\dev\MIPT-academic-C-projects\Stack\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/stack.dir/test_stack.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\stack.dir\test_stack.c.obj   -c C:\dev\MIPT-academic-C-projects\Stack\test_stack.c
 
-# External object files for target Stack
-Stack_EXTERNAL_OBJECTS =
+CMakeFiles/stack.dir/test_stack.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stack.dir/test_stack.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\dev\MIPT-academic-C-projects\Stack\test_stack.c > CMakeFiles\stack.dir\test_stack.c.i
 
-Stack.exe: CMakeFiles/Stack.dir/stack.c.obj
-Stack.exe: CMakeFiles/Stack.dir/build.make
-Stack.exe: CMakeFiles/Stack.dir/linklibs.rsp
-Stack.exe: CMakeFiles/Stack.dir/objects1.rsp
-Stack.exe: CMakeFiles/Stack.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\dev\MIPT-academic-C-projects\Stack\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Stack.exe"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Stack.dir\link.txt --verbose=$(VERBOSE)
+CMakeFiles/stack.dir/test_stack.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stack.dir/test_stack.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\dev\MIPT-academic-C-projects\Stack\test_stack.c -o CMakeFiles\stack.dir\test_stack.c.s
+
+# Object files for target stack
+stack_OBJECTS = \
+"CMakeFiles/stack.dir/stack.c.obj" \
+"CMakeFiles/stack.dir/test_stack.c.obj"
+
+# External object files for target stack
+stack_EXTERNAL_OBJECTS =
+
+stack.exe: CMakeFiles/stack.dir/stack.c.obj
+stack.exe: CMakeFiles/stack.dir/test_stack.c.obj
+stack.exe: CMakeFiles/stack.dir/build.make
+stack.exe: CMakeFiles/stack.dir/linklibs.rsp
+stack.exe: CMakeFiles/stack.dir/objects1.rsp
+stack.exe: CMakeFiles/stack.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\dev\MIPT-academic-C-projects\Stack\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable stack.exe"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\stack.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/Stack.dir/build: Stack.exe
+CMakeFiles/stack.dir/build: stack.exe
 
-.PHONY : CMakeFiles/Stack.dir/build
+.PHONY : CMakeFiles/stack.dir/build
 
-CMakeFiles/Stack.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles\Stack.dir\cmake_clean.cmake
-.PHONY : CMakeFiles/Stack.dir/clean
+CMakeFiles/stack.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles\stack.dir\cmake_clean.cmake
+.PHONY : CMakeFiles/stack.dir/clean
 
-CMakeFiles/Stack.dir/depend:
+CMakeFiles/stack.dir/depend:
 	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\dev\MIPT-academic-C-projects\Stack C:\dev\MIPT-academic-C-projects\Stack C:\dev\MIPT-academic-C-projects\Stack\cmake-build-debug C:\dev\MIPT-academic-C-projects\Stack\cmake-build-debug C:\dev\MIPT-academic-C-projects\Stack\cmake-build-debug\CMakeFiles\Stack.dir\DependInfo.cmake --color=$(COLOR)
-.PHONY : CMakeFiles/Stack.dir/depend
+.PHONY : CMakeFiles/stack.dir/depend
 

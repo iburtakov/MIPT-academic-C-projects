@@ -19,115 +19,22 @@ stack_set_size:
 	error_number = 0
 
 stack_hash:
-	hash = -8431
+	hash = -8513
 
 stack_ok:
 
 stack_hash:
-	hash = -8431
+	hash = -8513
 	stack_ok: no errors detected
 	stack is successfully created
 
-
-stack_ok:
-
-stack_hash:
-	hash = -8431
-	stack_ok: no errors detected
-
-stack_push:
-	pushed 1 
-	size = 1
-
-stack_hash:
-	hash = -8486
-
-stack_ok:
-
-stack_hash:
-	hash = -8486
-	stack_ok: no errors detected
-
-stack_ok:
-
-stack_hash:
-	hash = -8486
-	stack_ok: no errors detected
-
-stack_push:
-	pushed 6 
-	size = 2
-
-stack_hash:
-	hash = -8573
-
-stack_ok:
-
-stack_hash:
-	hash = -8573
-	stack_ok: no errors detected
-
-stack_ok:
-
-stack_hash:
-	hash = -8573
-	stack_ok: no errors detected
-
-stack_push:
-	pushed 10 
-	size = 3
-
-stack_hash:
-	hash = -8664
-
-stack_ok:
-
-stack_hash:
-	hash = -8664
-	stack_ok: no errors detected
-
-stack_ok:
-
-stack_hash:
-	hash = -8664
-	stack_ok: no errors detected
-
-stack_clear:
-	stack filled in with poison values
-	size = 0
-
-stack_hash:
-	hash = -8431
-
-stack_ok:
-
-stack_hash:
-	hash = -8431
-	stack_ok: no errors detected
-	stack successfully cleared
-
-stack_ok:
-
-stack_hash:
-	hash = -8431
-	stack_ok: no errors detected
-
-stack_ok:
-
-stack_hash:
-	hash = -8431
-	stack_ok: no errors detected
-
-stack_pop:
-
-stack_ok:
 					 STACK_DUMP:
-Stack "stk" [00FC1690]  (ERROR!!!)
+Stack "stk" [00F91690]  (ok)
 {
 	 canary1 = -1737075662
 	 size = 0
 	 capacity = 8
-	 data[8 elem.] = [00FC16C0]
+	 data[8 elem.] = [00F916C0]
 		 data_canary1 = -1416824409
 		   [0] = -999    (POISON?) 
 		   [1] = -999    (POISON?) 
@@ -140,7 +47,4464 @@ Stack "stk" [00FC1690]  (ERROR!!!)
 		 data_canary2 = -1416824409
 	 canary2 = -1412567278
 
-	 hash = -8431
+	 hash = -8513
+	 error_number = NO_ERROR
+
+}
+stack_dump: finished
+
+
+stack_ok:
+
+stack_hash:
+	hash = -8513
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 0 
+	size = 1
+
+stack_hash:
+	hash = -8572
+
+stack_ok:
+
+stack_hash:
+	hash = -8572
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = -8572
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 1 
+	size = 2
+
+stack_hash:
+	hash = -8699
+
+stack_ok:
+
+stack_hash:
+	hash = -8699
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = -8699
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 2 
+	size = 3
+
+stack_hash:
+	hash = -8886
+
+stack_ok:
+
+stack_hash:
+	hash = -8886
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = -8886
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 3 
+	size = 4
+
+stack_hash:
+	hash = -9125
+
+stack_ok:
+
+stack_hash:
+	hash = -9125
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = -9125
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 4 
+	size = 5
+
+stack_hash:
+	hash = -9408
+
+stack_ok:
+
+stack_hash:
+	hash = -9408
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = -9408
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 5 
+	size = 6
+
+stack_hash:
+	hash = -9727
+
+stack_ok:
+
+stack_hash:
+	hash = -9727
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = -9727
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 6 
+	size = 7
+
+stack_hash:
+	hash = -10074
+
+stack_ok:
+
+stack_hash:
+	hash = -10074
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = -10074
+	stack_ok: no errors detected
+
+stack_push:
+
+stack_ok:
+
+stack_hash:
+	hash = -10074
+	stack_ok: no errors detected
+
+stack_set_size:
+	data realloced
+	new capacity = 14
+	put first canary
+	put secong canary
+	elements of stack from 7 to 13 are set in poison value
+
+stack_hash:
+	hash = -11940
+
+stack_ok:
+
+stack_hash:
+	hash = -11940
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = -11940
+	stack_ok: no errors detected
+	pushed 7 
+	size = 8
+
+stack_hash:
+	hash = -12307
+
+stack_ok:
+
+stack_hash:
+	hash = -12307
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = -12307
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 8 
+	size = 9
+
+stack_hash:
+	hash = -12686
+
+stack_ok:
+
+stack_hash:
+	hash = -12686
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = -12686
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 9 
+	size = 10
+
+stack_hash:
+	hash = -13069
+
+stack_ok:
+
+stack_hash:
+	hash = -13069
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = -13069
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 10 
+	size = 11
+
+stack_hash:
+	hash = -13448
+
+stack_ok:
+
+stack_hash:
+	hash = -13448
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = -13448
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 11 
+	size = 12
+
+stack_hash:
+	hash = -13815
+
+stack_ok:
+
+stack_hash:
+	hash = -13815
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = -13815
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 12 
+	size = 13
+
+stack_hash:
+	hash = -14162
+
+stack_ok:
+
+stack_hash:
+	hash = -14162
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = -14162
+	stack_ok: no errors detected
+
+stack_push:
+
+stack_ok:
+
+stack_hash:
+	hash = -14162
+	stack_ok: no errors detected
+
+stack_set_size:
+	data realloced
+	new capacity = 26
+	put first canary
+	put secong canary
+	elements of stack from 13 to 25 are set in poison value
+
+stack_hash:
+	hash = -9040
+
+stack_ok:
+
+stack_hash:
+	hash = -9040
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = -9040
+	stack_ok: no errors detected
+	pushed 13 
+	size = 14
+
+stack_hash:
+	hash = -9359
+
+stack_ok:
+
+stack_hash:
+	hash = -9359
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = -9359
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 14 
+	size = 15
+
+stack_hash:
+	hash = -9642
+
+stack_ok:
+
+stack_hash:
+	hash = -9642
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = -9642
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 15 
+	size = 16
+
+stack_hash:
+	hash = -9881
+
+stack_ok:
+
+stack_hash:
+	hash = -9881
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = -9881
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 16 
+	size = 17
+
+stack_hash:
+	hash = -10068
+
+stack_ok:
+
+stack_hash:
+	hash = -10068
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = -10068
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 17 
+	size = 18
+
+stack_hash:
+	hash = -10195
+
+stack_ok:
+
+stack_hash:
+	hash = -10195
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = -10195
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 18 
+	size = 19
+
+stack_hash:
+	hash = -10254
+
+stack_ok:
+
+stack_hash:
+	hash = -10254
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = -10254
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 19 
+	size = 20
+
+stack_hash:
+	hash = -10237
+
+stack_ok:
+
+stack_hash:
+	hash = -10237
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = -10237
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 20 
+	size = 21
+
+stack_hash:
+	hash = -10136
+
+stack_ok:
+
+stack_hash:
+	hash = -10136
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = -10136
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 21 
+	size = 22
+
+stack_hash:
+	hash = -9943
+
+stack_ok:
+
+stack_hash:
+	hash = -9943
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = -9943
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 22 
+	size = 23
+
+stack_hash:
+	hash = -9650
+
+stack_ok:
+
+stack_hash:
+	hash = -9650
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = -9650
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 23 
+	size = 24
+
+stack_hash:
+	hash = -9249
+
+stack_ok:
+
+stack_hash:
+	hash = -9249
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = -9249
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 24 
+	size = 25
+
+stack_hash:
+	hash = -8732
+
+stack_ok:
+
+stack_hash:
+	hash = -8732
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = -8732
+	stack_ok: no errors detected
+
+stack_push:
+
+stack_ok:
+
+stack_hash:
+	hash = -8732
+	stack_ok: no errors detected
+
+stack_set_size:
+	data realloced
+	new capacity = 50
+	put first canary
+	put secong canary
+	elements of stack from 25 to 49 are set in poison value
+
+stack_hash:
+	hash = 33052
+
+stack_ok:
+
+stack_hash:
+	hash = 33052
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 33052
+	stack_ok: no errors detected
+	pushed 25 
+	size = 26
+
+stack_hash:
+	hash = 33693
+
+stack_ok:
+
+stack_hash:
+	hash = 33693
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 33693
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 26 
+	size = 27
+
+stack_hash:
+	hash = 34466
+
+stack_ok:
+
+stack_hash:
+	hash = 34466
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 34466
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 27 
+	size = 28
+
+stack_hash:
+	hash = 35379
+
+stack_ok:
+
+stack_hash:
+	hash = 35379
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 35379
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 28 
+	size = 29
+
+stack_hash:
+	hash = 36440
+
+stack_ok:
+
+stack_hash:
+	hash = 36440
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 36440
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 29 
+	size = 30
+
+stack_hash:
+	hash = 37657
+
+stack_ok:
+
+stack_hash:
+	hash = 37657
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 37657
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 30 
+	size = 31
+
+stack_hash:
+	hash = 39038
+
+stack_ok:
+
+stack_hash:
+	hash = 39038
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 39038
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 31 
+	size = 32
+
+stack_hash:
+	hash = 40591
+
+stack_ok:
+
+stack_hash:
+	hash = 40591
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 40591
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 32 
+	size = 33
+
+stack_hash:
+	hash = 42324
+
+stack_ok:
+
+stack_hash:
+	hash = 42324
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 42324
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 33 
+	size = 34
+
+stack_hash:
+	hash = 44245
+
+stack_ok:
+
+stack_hash:
+	hash = 44245
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 44245
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 34 
+	size = 35
+
+stack_hash:
+	hash = 46362
+
+stack_ok:
+
+stack_hash:
+	hash = 46362
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 46362
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 35 
+	size = 36
+
+stack_hash:
+	hash = 48683
+
+stack_ok:
+
+stack_hash:
+	hash = 48683
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 48683
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 36 
+	size = 37
+
+stack_hash:
+	hash = 51216
+
+stack_ok:
+
+stack_hash:
+	hash = 51216
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 51216
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 37 
+	size = 38
+
+stack_hash:
+	hash = 53969
+
+stack_ok:
+
+stack_hash:
+	hash = 53969
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 53969
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 38 
+	size = 39
+
+stack_hash:
+	hash = 56950
+
+stack_ok:
+
+stack_hash:
+	hash = 56950
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 56950
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 39 
+	size = 40
+
+stack_hash:
+	hash = 60167
+
+stack_ok:
+
+stack_hash:
+	hash = 60167
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 60167
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 40 
+	size = 41
+
+stack_hash:
+	hash = 63628
+
+stack_ok:
+
+stack_hash:
+	hash = 63628
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 63628
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 41 
+	size = 42
+
+stack_hash:
+	hash = 67341
+
+stack_ok:
+
+stack_hash:
+	hash = 67341
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 67341
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 42 
+	size = 43
+
+stack_hash:
+	hash = 71314
+
+stack_ok:
+
+stack_hash:
+	hash = 71314
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 71314
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 43 
+	size = 44
+
+stack_hash:
+	hash = 75555
+
+stack_ok:
+
+stack_hash:
+	hash = 75555
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 75555
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 44 
+	size = 45
+
+stack_hash:
+	hash = 80072
+
+stack_ok:
+
+stack_hash:
+	hash = 80072
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 80072
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 45 
+	size = 46
+
+stack_hash:
+	hash = 84873
+
+stack_ok:
+
+stack_hash:
+	hash = 84873
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 84873
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 46 
+	size = 47
+
+stack_hash:
+	hash = 89966
+
+stack_ok:
+
+stack_hash:
+	hash = 89966
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 89966
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 47 
+	size = 48
+
+stack_hash:
+	hash = 95359
+
+stack_ok:
+
+stack_hash:
+	hash = 95359
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 95359
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 48 
+	size = 49
+
+stack_hash:
+	hash = 101060
+
+stack_ok:
+
+stack_hash:
+	hash = 101060
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 101060
+	stack_ok: no errors detected
+
+stack_push:
+
+stack_ok:
+
+stack_hash:
+	hash = 101060
+	stack_ok: no errors detected
+
+stack_set_size:
+	data realloced
+	new capacity = 98
+	put first canary
+	put secong canary
+	elements of stack from 49 to 97 are set in poison value
+
+stack_hash:
+	hash = 315956
+
+stack_ok:
+
+stack_hash:
+	hash = 315956
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 315956
+	stack_ok: no errors detected
+	pushed 49 
+	size = 50
+
+stack_hash:
+	hash = 321973
+
+stack_ok:
+
+stack_hash:
+	hash = 321973
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 321973
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 50 
+	size = 51
+
+stack_hash:
+	hash = 328314
+
+stack_ok:
+
+stack_hash:
+	hash = 328314
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 328314
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 51 
+	size = 52
+
+stack_hash:
+	hash = 334987
+
+stack_ok:
+
+stack_hash:
+	hash = 334987
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 334987
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 52 
+	size = 53
+
+stack_hash:
+	hash = 342000
+
+stack_ok:
+
+stack_hash:
+	hash = 342000
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 342000
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 53 
+	size = 54
+
+stack_hash:
+	hash = 349361
+
+stack_ok:
+
+stack_hash:
+	hash = 349361
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 349361
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 54 
+	size = 55
+
+stack_hash:
+	hash = 357078
+
+stack_ok:
+
+stack_hash:
+	hash = 357078
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 357078
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 55 
+	size = 56
+
+stack_hash:
+	hash = 365159
+
+stack_ok:
+
+stack_hash:
+	hash = 365159
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 365159
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 56 
+	size = 57
+
+stack_hash:
+	hash = 373612
+
+stack_ok:
+
+stack_hash:
+	hash = 373612
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 373612
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 57 
+	size = 58
+
+stack_hash:
+	hash = 382445
+
+stack_ok:
+
+stack_hash:
+	hash = 382445
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 382445
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 58 
+	size = 59
+
+stack_hash:
+	hash = 391666
+
+stack_ok:
+
+stack_hash:
+	hash = 391666
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 391666
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 59 
+	size = 60
+
+stack_hash:
+	hash = 401283
+
+stack_ok:
+
+stack_hash:
+	hash = 401283
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 401283
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 60 
+	size = 61
+
+stack_hash:
+	hash = 411304
+
+stack_ok:
+
+stack_hash:
+	hash = 411304
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 411304
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 61 
+	size = 62
+
+stack_hash:
+	hash = 421737
+
+stack_ok:
+
+stack_hash:
+	hash = 421737
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 421737
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 62 
+	size = 63
+
+stack_hash:
+	hash = 432590
+
+stack_ok:
+
+stack_hash:
+	hash = 432590
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 432590
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 63 
+	size = 64
+
+stack_hash:
+	hash = 443871
+
+stack_ok:
+
+stack_hash:
+	hash = 443871
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 443871
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 64 
+	size = 65
+
+stack_hash:
+	hash = 455588
+
+stack_ok:
+
+stack_hash:
+	hash = 455588
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 455588
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 65 
+	size = 66
+
+stack_hash:
+	hash = 467749
+
+stack_ok:
+
+stack_hash:
+	hash = 467749
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 467749
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 66 
+	size = 67
+
+stack_hash:
+	hash = 480362
+
+stack_ok:
+
+stack_hash:
+	hash = 480362
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 480362
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 67 
+	size = 68
+
+stack_hash:
+	hash = 493435
+
+stack_ok:
+
+stack_hash:
+	hash = 493435
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 493435
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 68 
+	size = 69
+
+stack_hash:
+	hash = 506976
+
+stack_ok:
+
+stack_hash:
+	hash = 506976
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 506976
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 69 
+	size = 70
+
+stack_hash:
+	hash = 520993
+
+stack_ok:
+
+stack_hash:
+	hash = 520993
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 520993
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 70 
+	size = 71
+
+stack_hash:
+	hash = 535494
+
+stack_ok:
+
+stack_hash:
+	hash = 535494
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 535494
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 71 
+	size = 72
+
+stack_hash:
+	hash = 550487
+
+stack_ok:
+
+stack_hash:
+	hash = 550487
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 550487
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 72 
+	size = 73
+
+stack_hash:
+	hash = 565980
+
+stack_ok:
+
+stack_hash:
+	hash = 565980
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 565980
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 73 
+	size = 74
+
+stack_hash:
+	hash = 581981
+
+stack_ok:
+
+stack_hash:
+	hash = 581981
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 581981
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 74 
+	size = 75
+
+stack_hash:
+	hash = 598498
+
+stack_ok:
+
+stack_hash:
+	hash = 598498
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 598498
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 75 
+	size = 76
+
+stack_hash:
+	hash = 615539
+
+stack_ok:
+
+stack_hash:
+	hash = 615539
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 615539
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 76 
+	size = 77
+
+stack_hash:
+	hash = 633112
+
+stack_ok:
+
+stack_hash:
+	hash = 633112
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 633112
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 77 
+	size = 78
+
+stack_hash:
+	hash = 651225
+
+stack_ok:
+
+stack_hash:
+	hash = 651225
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 651225
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 78 
+	size = 79
+
+stack_hash:
+	hash = 669886
+
+stack_ok:
+
+stack_hash:
+	hash = 669886
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 669886
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 79 
+	size = 80
+
+stack_hash:
+	hash = 689103
+
+stack_ok:
+
+stack_hash:
+	hash = 689103
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 689103
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 80 
+	size = 81
+
+stack_hash:
+	hash = 708884
+
+stack_ok:
+
+stack_hash:
+	hash = 708884
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 708884
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 81 
+	size = 82
+
+stack_hash:
+	hash = 729237
+
+stack_ok:
+
+stack_hash:
+	hash = 729237
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 729237
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 82 
+	size = 83
+
+stack_hash:
+	hash = 750170
+
+stack_ok:
+
+stack_hash:
+	hash = 750170
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 750170
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 83 
+	size = 84
+
+stack_hash:
+	hash = 771691
+
+stack_ok:
+
+stack_hash:
+	hash = 771691
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 771691
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 84 
+	size = 85
+
+stack_hash:
+	hash = 793808
+
+stack_ok:
+
+stack_hash:
+	hash = 793808
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 793808
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 85 
+	size = 86
+
+stack_hash:
+	hash = 816529
+
+stack_ok:
+
+stack_hash:
+	hash = 816529
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 816529
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 86 
+	size = 87
+
+stack_hash:
+	hash = 839862
+
+stack_ok:
+
+stack_hash:
+	hash = 839862
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 839862
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 87 
+	size = 88
+
+stack_hash:
+	hash = 863815
+
+stack_ok:
+
+stack_hash:
+	hash = 863815
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 863815
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 88 
+	size = 89
+
+stack_hash:
+	hash = 888396
+
+stack_ok:
+
+stack_hash:
+	hash = 888396
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 888396
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 89 
+	size = 90
+
+stack_hash:
+	hash = 913613
+
+stack_ok:
+
+stack_hash:
+	hash = 913613
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 913613
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 90 
+	size = 91
+
+stack_hash:
+	hash = 939474
+
+stack_ok:
+
+stack_hash:
+	hash = 939474
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 939474
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 91 
+	size = 92
+
+stack_hash:
+	hash = 965987
+
+stack_ok:
+
+stack_hash:
+	hash = 965987
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 965987
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 92 
+	size = 93
+
+stack_hash:
+	hash = 993160
+
+stack_ok:
+
+stack_hash:
+	hash = 993160
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 993160
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 93 
+	size = 94
+
+stack_hash:
+	hash = 1021001
+
+stack_ok:
+
+stack_hash:
+	hash = 1021001
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 1021001
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 94 
+	size = 95
+
+stack_hash:
+	hash = 1049518
+
+stack_ok:
+
+stack_hash:
+	hash = 1049518
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 1049518
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 95 
+	size = 96
+
+stack_hash:
+	hash = 1078719
+
+stack_ok:
+
+stack_hash:
+	hash = 1078719
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 1078719
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 96 
+	size = 97
+
+stack_hash:
+	hash = 1108612
+
+stack_ok:
+
+stack_hash:
+	hash = 1108612
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 1108612
+	stack_ok: no errors detected
+
+stack_push:
+
+stack_ok:
+
+stack_hash:
+	hash = 1108612
+	stack_ok: no errors detected
+
+stack_set_size:
+	data realloced
+	new capacity = 194
+	put first canary
+	put secong canary
+	elements of stack from 97 to 193 are set in poison value
+
+stack_hash:
+	hash = 2060644
+
+stack_ok:
+
+stack_hash:
+	hash = 2060644
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 2060644
+	stack_ok: no errors detected
+	pushed 97 
+	size = 98
+
+stack_hash:
+	hash = 2091237
+
+stack_ok:
+
+stack_hash:
+	hash = 2091237
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 2091237
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 98 
+	size = 99
+
+stack_hash:
+	hash = 2122538
+
+stack_ok:
+
+stack_hash:
+	hash = 2122538
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 2122538
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 99 
+	size = 100
+
+stack_hash:
+	hash = 2154555
+
+stack_ok:
+
+stack_hash:
+	hash = 2154555
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 2154555
+	stack_ok: no errors detected
+
+stack_push:
+	pushed 100 
+	size = 101
+
+stack_hash:
+	hash = 2187296
+
+stack_ok:
+
+stack_hash:
+	hash = 2187296
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 2187296
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 100
+	popped 100 
+
+stack_hash:
+	hash = 2154555
+
+stack_hash:
+	hash = 2154555
+
+stack_ok:
+
+stack_hash:
+	hash = 2154555
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 2154555
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 99
+	popped 99 
+
+stack_hash:
+	hash = 2122538
+
+stack_hash:
+	hash = 2122538
+
+stack_ok:
+
+stack_hash:
+	hash = 2122538
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 2122538
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 98
+	popped 98 
+
+stack_hash:
+	hash = 2091237
+
+stack_hash:
+	hash = 2091237
+
+stack_ok:
+
+stack_hash:
+	hash = 2091237
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 2091237
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 97
+	popped 97 
+
+stack_hash:
+	hash = 2060644
+
+stack_hash:
+	hash = 2060644
+
+stack_ok:
+
+stack_hash:
+	hash = 2060644
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 2060644
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 96
+	popped 96 
+
+stack_hash:
+	hash = 2030751
+
+stack_hash:
+	hash = 2030751
+
+stack_ok:
+
+stack_hash:
+	hash = 2030751
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 2030751
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 95
+	popped 95 
+
+stack_hash:
+	hash = 2001550
+
+stack_hash:
+	hash = 2001550
+
+stack_ok:
+
+stack_hash:
+	hash = 2001550
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 2001550
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 94
+	popped 94 
+
+stack_hash:
+	hash = 1973033
+
+stack_hash:
+	hash = 1973033
+
+stack_ok:
+
+stack_hash:
+	hash = 1973033
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 1973033
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 93
+	popped 93 
+
+stack_hash:
+	hash = 1945192
+
+stack_hash:
+	hash = 1945192
+
+stack_ok:
+
+stack_hash:
+	hash = 1945192
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 1945192
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 92
+	popped 92 
+
+stack_hash:
+	hash = 1918019
+
+stack_hash:
+	hash = 1918019
+
+stack_ok:
+
+stack_hash:
+	hash = 1918019
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 1918019
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 91
+	popped 91 
+
+stack_hash:
+	hash = 1891506
+
+stack_hash:
+	hash = 1891506
+
+stack_ok:
+
+stack_hash:
+	hash = 1891506
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 1891506
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 90
+	popped 90 
+
+stack_hash:
+	hash = 1865645
+
+stack_hash:
+	hash = 1865645
+
+stack_ok:
+
+stack_hash:
+	hash = 1865645
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 1865645
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 89
+	popped 89 
+
+stack_hash:
+	hash = 1840428
+
+stack_hash:
+	hash = 1840428
+
+stack_ok:
+
+stack_hash:
+	hash = 1840428
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 1840428
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 88
+	popped 88 
+
+stack_hash:
+	hash = 1815847
+
+stack_hash:
+	hash = 1815847
+
+stack_ok:
+
+stack_hash:
+	hash = 1815847
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 1815847
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 87
+	popped 87 
+
+stack_hash:
+	hash = 1791894
+
+stack_hash:
+	hash = 1791894
+
+stack_ok:
+
+stack_hash:
+	hash = 1791894
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 1791894
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 86
+	popped 86 
+
+stack_hash:
+	hash = 1768561
+
+stack_hash:
+	hash = 1768561
+
+stack_ok:
+
+stack_hash:
+	hash = 1768561
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 1768561
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 85
+	popped 85 
+
+stack_hash:
+	hash = 1745840
+
+stack_hash:
+	hash = 1745840
+
+stack_ok:
+
+stack_hash:
+	hash = 1745840
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 1745840
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 84
+	popped 84 
+
+stack_hash:
+	hash = 1723723
+
+stack_hash:
+	hash = 1723723
+
+stack_ok:
+
+stack_hash:
+	hash = 1723723
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 1723723
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 83
+	popped 83 
+
+stack_hash:
+	hash = 1702202
+
+stack_hash:
+	hash = 1702202
+
+stack_ok:
+
+stack_hash:
+	hash = 1702202
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 1702202
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 82
+	popped 82 
+
+stack_hash:
+	hash = 1681269
+
+stack_hash:
+	hash = 1681269
+
+stack_ok:
+
+stack_hash:
+	hash = 1681269
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 1681269
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 81
+	popped 81 
+
+stack_hash:
+	hash = 1660916
+
+stack_hash:
+	hash = 1660916
+
+stack_ok:
+
+stack_hash:
+	hash = 1660916
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 1660916
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 80
+	popped 80 
+
+stack_hash:
+	hash = 1641135
+
+stack_hash:
+	hash = 1641135
+
+stack_ok:
+
+stack_hash:
+	hash = 1641135
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 1641135
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 79
+	popped 79 
+
+stack_hash:
+	hash = 1621918
+
+stack_hash:
+	hash = 1621918
+
+stack_ok:
+
+stack_hash:
+	hash = 1621918
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 1621918
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 78
+	popped 78 
+
+stack_hash:
+	hash = 1603257
+
+stack_hash:
+	hash = 1603257
+
+stack_ok:
+
+stack_hash:
+	hash = 1603257
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 1603257
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 77
+	popped 77 
+
+stack_hash:
+	hash = 1585144
+
+stack_hash:
+	hash = 1585144
+
+stack_ok:
+
+stack_hash:
+	hash = 1585144
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 1585144
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 76
+	popped 76 
+
+stack_hash:
+	hash = 1567571
+
+stack_ok:
+
+stack_hash:
+	hash = 1567571
+	stack_ok: no errors detected
+
+stack_set_size:
+	data realloced
+	new capacity = 97
+	put first canary
+	put secong canary
+	elements of stack from 76 to 96 are set in poison value
+
+stack_hash:
+	hash = 609276
+
+stack_ok:
+
+stack_hash:
+	hash = 609276
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 609276
+	stack_ok: no errors detected
+
+stack_hash:
+	hash = 609276
+
+stack_ok:
+
+stack_hash:
+	hash = 609276
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 609276
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 75
+	popped 75 
+
+stack_hash:
+	hash = 592235
+
+stack_hash:
+	hash = 592235
+
+stack_ok:
+
+stack_hash:
+	hash = 592235
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 592235
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 74
+	popped 74 
+
+stack_hash:
+	hash = 575718
+
+stack_hash:
+	hash = 575718
+
+stack_ok:
+
+stack_hash:
+	hash = 575718
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 575718
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 73
+	popped 73 
+
+stack_hash:
+	hash = 559717
+
+stack_hash:
+	hash = 559717
+
+stack_ok:
+
+stack_hash:
+	hash = 559717
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 559717
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 72
+	popped 72 
+
+stack_hash:
+	hash = 544224
+
+stack_hash:
+	hash = 544224
+
+stack_ok:
+
+stack_hash:
+	hash = 544224
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 544224
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 71
+	popped 71 
+
+stack_hash:
+	hash = 529231
+
+stack_hash:
+	hash = 529231
+
+stack_ok:
+
+stack_hash:
+	hash = 529231
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 529231
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 70
+	popped 70 
+
+stack_hash:
+	hash = 514730
+
+stack_hash:
+	hash = 514730
+
+stack_ok:
+
+stack_hash:
+	hash = 514730
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 514730
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 69
+	popped 69 
+
+stack_hash:
+	hash = 500713
+
+stack_hash:
+	hash = 500713
+
+stack_ok:
+
+stack_hash:
+	hash = 500713
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 500713
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 68
+	popped 68 
+
+stack_hash:
+	hash = 487172
+
+stack_hash:
+	hash = 487172
+
+stack_ok:
+
+stack_hash:
+	hash = 487172
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 487172
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 67
+	popped 67 
+
+stack_hash:
+	hash = 474099
+
+stack_hash:
+	hash = 474099
+
+stack_ok:
+
+stack_hash:
+	hash = 474099
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 474099
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 66
+	popped 66 
+
+stack_hash:
+	hash = 461486
+
+stack_hash:
+	hash = 461486
+
+stack_ok:
+
+stack_hash:
+	hash = 461486
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 461486
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 65
+	popped 65 
+
+stack_hash:
+	hash = 449325
+
+stack_hash:
+	hash = 449325
+
+stack_ok:
+
+stack_hash:
+	hash = 449325
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 449325
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 64
+	popped 64 
+
+stack_hash:
+	hash = 437608
+
+stack_hash:
+	hash = 437608
+
+stack_ok:
+
+stack_hash:
+	hash = 437608
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 437608
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 63
+	popped 63 
+
+stack_hash:
+	hash = 426327
+
+stack_hash:
+	hash = 426327
+
+stack_ok:
+
+stack_hash:
+	hash = 426327
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 426327
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 62
+	popped 62 
+
+stack_hash:
+	hash = 415474
+
+stack_hash:
+	hash = 415474
+
+stack_ok:
+
+stack_hash:
+	hash = 415474
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 415474
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 61
+	popped 61 
+
+stack_hash:
+	hash = 405041
+
+stack_hash:
+	hash = 405041
+
+stack_ok:
+
+stack_hash:
+	hash = 405041
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 405041
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 60
+	popped 60 
+
+stack_hash:
+	hash = 395020
+
+stack_hash:
+	hash = 395020
+
+stack_ok:
+
+stack_hash:
+	hash = 395020
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 395020
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 59
+	popped 59 
+
+stack_hash:
+	hash = 385403
+
+stack_hash:
+	hash = 385403
+
+stack_ok:
+
+stack_hash:
+	hash = 385403
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 385403
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 58
+	popped 58 
+
+stack_hash:
+	hash = 376182
+
+stack_hash:
+	hash = 376182
+
+stack_ok:
+
+stack_hash:
+	hash = 376182
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 376182
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 57
+	popped 57 
+
+stack_hash:
+	hash = 367349
+
+stack_hash:
+	hash = 367349
+
+stack_ok:
+
+stack_hash:
+	hash = 367349
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 367349
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 56
+	popped 56 
+
+stack_hash:
+	hash = 358896
+
+stack_hash:
+	hash = 358896
+
+stack_ok:
+
+stack_hash:
+	hash = 358896
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 358896
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 55
+	popped 55 
+
+stack_hash:
+	hash = 350815
+
+stack_hash:
+	hash = 350815
+
+stack_ok:
+
+stack_hash:
+	hash = 350815
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 350815
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 54
+	popped 54 
+
+stack_hash:
+	hash = 343098
+
+stack_hash:
+	hash = 343098
+
+stack_ok:
+
+stack_hash:
+	hash = 343098
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 343098
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 53
+	popped 53 
+
+stack_hash:
+	hash = 335737
+
+stack_hash:
+	hash = 335737
+
+stack_ok:
+
+stack_hash:
+	hash = 335737
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 335737
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 52
+	popped 52 
+
+stack_hash:
+	hash = 328724
+
+stack_hash:
+	hash = 328724
+
+stack_ok:
+
+stack_hash:
+	hash = 328724
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 328724
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 51
+	popped 51 
+
+stack_hash:
+	hash = 322051
+
+stack_hash:
+	hash = 322051
+
+stack_ok:
+
+stack_hash:
+	hash = 322051
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 322051
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 50
+	popped 50 
+
+stack_hash:
+	hash = 315710
+
+stack_hash:
+	hash = 315710
+
+stack_ok:
+
+stack_hash:
+	hash = 315710
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 315710
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 49
+	popped 49 
+
+stack_hash:
+	hash = 309693
+
+stack_hash:
+	hash = 309693
+
+stack_ok:
+
+stack_hash:
+	hash = 309693
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 309693
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 48
+	popped 48 
+
+stack_hash:
+	hash = 303992
+
+stack_hash:
+	hash = 303992
+
+stack_ok:
+
+stack_hash:
+	hash = 303992
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 303992
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 47
+	popped 47 
+
+stack_hash:
+	hash = 298599
+
+stack_hash:
+	hash = 298599
+
+stack_ok:
+
+stack_hash:
+	hash = 298599
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 298599
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 46
+	popped 46 
+
+stack_hash:
+	hash = 293506
+
+stack_hash:
+	hash = 293506
+
+stack_ok:
+
+stack_hash:
+	hash = 293506
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 293506
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 45
+	popped 45 
+
+stack_hash:
+	hash = 288705
+
+stack_hash:
+	hash = 288705
+
+stack_ok:
+
+stack_hash:
+	hash = 288705
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 288705
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 44
+	popped 44 
+
+stack_hash:
+	hash = 284188
+
+stack_hash:
+	hash = 284188
+
+stack_ok:
+
+stack_hash:
+	hash = 284188
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 284188
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 43
+	popped 43 
+
+stack_hash:
+	hash = 279947
+
+stack_hash:
+	hash = 279947
+
+stack_ok:
+
+stack_hash:
+	hash = 279947
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 279947
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 42
+	popped 42 
+
+stack_hash:
+	hash = 275974
+
+stack_hash:
+	hash = 275974
+
+stack_ok:
+
+stack_hash:
+	hash = 275974
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 275974
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 41
+	popped 41 
+
+stack_hash:
+	hash = 272261
+
+stack_hash:
+	hash = 272261
+
+stack_ok:
+
+stack_hash:
+	hash = 272261
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 272261
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 40
+	popped 40 
+
+stack_hash:
+	hash = 268800
+
+stack_hash:
+	hash = 268800
+
+stack_ok:
+
+stack_hash:
+	hash = 268800
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 268800
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 39
+	popped 39 
+
+stack_hash:
+	hash = 265583
+
+stack_hash:
+	hash = 265583
+
+stack_ok:
+
+stack_hash:
+	hash = 265583
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 265583
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 38
+	popped 38 
+
+stack_hash:
+	hash = 262602
+
+stack_hash:
+	hash = 262602
+
+stack_ok:
+
+stack_hash:
+	hash = 262602
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 262602
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 37
+	popped 37 
+
+stack_hash:
+	hash = 259849
+
+stack_hash:
+	hash = 259849
+
+stack_ok:
+
+stack_hash:
+	hash = 259849
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 259849
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 36
+	popped 36 
+
+stack_hash:
+	hash = 257316
+
+stack_hash:
+	hash = 257316
+
+stack_ok:
+
+stack_hash:
+	hash = 257316
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 257316
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 35
+	popped 35 
+
+stack_hash:
+	hash = 254995
+
+stack_hash:
+	hash = 254995
+
+stack_ok:
+
+stack_hash:
+	hash = 254995
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 254995
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 34
+	popped 34 
+
+stack_hash:
+	hash = 252878
+
+stack_hash:
+	hash = 252878
+
+stack_ok:
+
+stack_hash:
+	hash = 252878
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 252878
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 33
+	popped 33 
+
+stack_hash:
+	hash = 250957
+
+stack_hash:
+	hash = 250957
+
+stack_ok:
+
+stack_hash:
+	hash = 250957
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 250957
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 32
+	popped 32 
+
+stack_hash:
+	hash = 249224
+
+stack_hash:
+	hash = 249224
+
+stack_ok:
+
+stack_hash:
+	hash = 249224
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 249224
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 31
+	popped 31 
+
+stack_hash:
+	hash = 247671
+
+stack_hash:
+	hash = 247671
+
+stack_ok:
+
+stack_hash:
+	hash = 247671
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 247671
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 30
+	popped 30 
+
+stack_hash:
+	hash = 246290
+
+stack_hash:
+	hash = 246290
+
+stack_ok:
+
+stack_hash:
+	hash = 246290
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 246290
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 29
+	popped 29 
+
+stack_hash:
+	hash = 245073
+
+stack_hash:
+	hash = 245073
+
+stack_ok:
+
+stack_hash:
+	hash = 245073
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 245073
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 28
+	popped 28 
+
+stack_hash:
+	hash = 244012
+
+stack_hash:
+	hash = 244012
+
+stack_ok:
+
+stack_hash:
+	hash = 244012
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 244012
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 27
+	popped 27 
+
+stack_hash:
+	hash = 243099
+
+stack_ok:
+
+stack_hash:
+	hash = 243099
+	stack_ok: no errors detected
+
+stack_set_size:
+	data realloced
+	new capacity = 48
+	put first canary
+	put secong canary
+	elements of stack from 27 to 47 are set in poison value
+
+stack_hash:
+	hash = 29312
+
+stack_ok:
+
+stack_hash:
+	hash = 29312
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 29312
+	stack_ok: no errors detected
+
+stack_hash:
+	hash = 29312
+
+stack_ok:
+
+stack_hash:
+	hash = 29312
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 29312
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 26
+	popped 26 
+
+stack_hash:
+	hash = 28539
+
+stack_hash:
+	hash = 28539
+
+stack_ok:
+
+stack_hash:
+	hash = 28539
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 28539
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 25
+	popped 25 
+
+stack_hash:
+	hash = 27898
+
+stack_hash:
+	hash = 27898
+
+stack_ok:
+
+stack_hash:
+	hash = 27898
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 27898
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 24
+	popped 24 
+
+stack_hash:
+	hash = 27381
+
+stack_hash:
+	hash = 27381
+
+stack_ok:
+
+stack_hash:
+	hash = 27381
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 27381
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 23
+	popped 23 
+
+stack_hash:
+	hash = 26980
+
+stack_hash:
+	hash = 26980
+
+stack_ok:
+
+stack_hash:
+	hash = 26980
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 26980
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 22
+	popped 22 
+
+stack_hash:
+	hash = 26687
+
+stack_hash:
+	hash = 26687
+
+stack_ok:
+
+stack_hash:
+	hash = 26687
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 26687
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 21
+	popped 21 
+
+stack_hash:
+	hash = 26494
+
+stack_hash:
+	hash = 26494
+
+stack_ok:
+
+stack_hash:
+	hash = 26494
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 26494
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 20
+	popped 20 
+
+stack_hash:
+	hash = 26393
+
+stack_hash:
+	hash = 26393
+
+stack_ok:
+
+stack_hash:
+	hash = 26393
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 26393
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 19
+	popped 19 
+
+stack_hash:
+	hash = 26376
+
+stack_hash:
+	hash = 26376
+
+stack_ok:
+
+stack_hash:
+	hash = 26376
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 26376
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 18
+	popped 18 
+
+stack_hash:
+	hash = 26435
+
+stack_hash:
+	hash = 26435
+
+stack_ok:
+
+stack_hash:
+	hash = 26435
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 26435
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 17
+	popped 17 
+
+stack_hash:
+	hash = 26562
+
+stack_hash:
+	hash = 26562
+
+stack_ok:
+
+stack_hash:
+	hash = 26562
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 26562
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 16
+	popped 16 
+
+stack_hash:
+	hash = 26749
+
+stack_hash:
+	hash = 26749
+
+stack_ok:
+
+stack_hash:
+	hash = 26749
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 26749
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 15
+	popped 15 
+
+stack_hash:
+	hash = 26988
+
+stack_hash:
+	hash = 26988
+
+stack_ok:
+
+stack_hash:
+	hash = 26988
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 26988
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 14
+	popped 14 
+
+stack_hash:
+	hash = 27271
+
+stack_hash:
+	hash = 27271
+
+stack_ok:
+
+stack_hash:
+	hash = 27271
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 27271
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 13
+	popped 13 
+
+stack_hash:
+	hash = 27590
+
+stack_hash:
+	hash = 27590
+
+stack_ok:
+
+stack_hash:
+	hash = 27590
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 27590
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 12
+	popped 12 
+
+stack_hash:
+	hash = 27937
+
+stack_hash:
+	hash = 27937
+
+stack_ok:
+
+stack_hash:
+	hash = 27937
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 27937
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 11
+	popped 11 
+
+stack_hash:
+	hash = 28304
+
+stack_hash:
+	hash = 28304
+
+stack_ok:
+
+stack_hash:
+	hash = 28304
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 28304
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 10
+	popped 10 
+
+stack_hash:
+	hash = 28683
+
+stack_hash:
+	hash = 28683
+
+stack_ok:
+
+stack_hash:
+	hash = 28683
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 28683
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 9
+	popped 9 
+
+stack_hash:
+	hash = 29066
+
+stack_hash:
+	hash = 29066
+
+stack_ok:
+
+stack_hash:
+	hash = 29066
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 29066
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 8
+	popped 8 
+
+stack_hash:
+	hash = 29445
+
+stack_hash:
+	hash = 29445
+
+stack_ok:
+
+stack_hash:
+	hash = 29445
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 29445
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 7
+	popped 7 
+
+stack_hash:
+	hash = 29812
+
+stack_hash:
+	hash = 29812
+
+stack_ok:
+
+stack_hash:
+	hash = 29812
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 29812
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 6
+	popped 6 
+
+stack_hash:
+	hash = 30159
+
+stack_hash:
+	hash = 30159
+
+stack_ok:
+
+stack_hash:
+	hash = 30159
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 30159
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 5
+	popped 5 
+
+stack_hash:
+	hash = 30478
+
+stack_hash:
+	hash = 30478
+
+stack_ok:
+
+stack_hash:
+	hash = 30478
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 30478
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 4
+	popped 4 
+
+stack_hash:
+	hash = 30761
+
+stack_hash:
+	hash = 30761
+
+stack_ok:
+
+stack_hash:
+	hash = 30761
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = 30761
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 3
+	popped 3 
+
+stack_hash:
+	hash = 31000
+
+stack_ok:
+
+stack_hash:
+	hash = 31000
+	stack_ok: no errors detected
+
+stack_set_size:
+	data realloced
+	new capacity = 24
+	put first canary
+	put secong canary
+	elements of stack from 3 to 23 are set in poison value
+
+stack_hash:
+	hash = -7136
+
+stack_ok:
+
+stack_hash:
+	hash = -7136
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = -7136
+	stack_ok: no errors detected
+
+stack_hash:
+	hash = -7136
+
+stack_ok:
+
+stack_hash:
+	hash = -7136
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = -7136
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 2
+	popped 2 
+
+stack_hash:
+	hash = -6949
+
+stack_hash:
+	hash = -6949
+
+stack_ok:
+
+stack_hash:
+	hash = -6949
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = -6949
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 1
+	popped 1 
+
+stack_hash:
+	hash = -6822
+
+stack_hash:
+	hash = -6822
+
+stack_ok:
+
+stack_hash:
+	hash = -6822
+	stack_ok: no errors detected
+
+stack_ok:
+
+stack_hash:
+	hash = -6822
+	stack_ok: no errors detected
+
+stack_pop:
+	size = 0
+	popped 0 
+
+stack_hash:
+	hash = -6763
+
+stack_hash:
+	hash = -6763
+
+stack_ok:
+
+stack_hash:
+	hash = -6763
+	stack_ok: no errors detected
+					 STACK_DUMP:
+Stack "stk" [00F91690]  (ok)
+{
+	 canary1 = -1737075662
+	 size = 0
+	 capacity = 24
+	 data[24 elem.] = [00F944B0]
+		 data_canary1 = -1416824409
+		   [0] = -999    (POISON?) 
+		   [1] = -999    (POISON?) 
+		   [2] = -999    (POISON?) 
+		   [3] = -999    (POISON?) 
+		   [4] = -999    (POISON?) 
+		   [5] = -999    (POISON?) 
+		   [6] = -999    (POISON?) 
+		   [7] = -999    (POISON?) 
+		   [8] = -999    (POISON?) 
+		   [9] = -999    (POISON?) 
+		   [10] = -999    (POISON?) 
+		   [11] = -999    (POISON?) 
+		   [12] = -999    (POISON?) 
+		   [13] = -999    (POISON?) 
+		   [14] = -999    (POISON?) 
+		   [15] = -999    (POISON?) 
+		   [16] = -999    (POISON?) 
+		   [17] = -999    (POISON?) 
+		   [18] = -999    (POISON?) 
+		   [19] = -999    (POISON?) 
+		   [20] = -999    (POISON?) 
+		   [21] = -999    (POISON?) 
+		   [22] = -999    (POISON?) 
+		   [23] = -999    (POISON?) 
+		 data_canary2 = -1416824409
+	 canary2 = -1412567278
+
+	 hash = -6763
+	 error_number = NO_ERROR
+
+}
+stack_dump: finished
+
+
+stack_ok:
+
+stack_hash:
+	hash = -6763
+	stack_ok: no errors detected
+
+stack_pop:
+
+stack_ok:
+					 STACK_DUMP:
+Stack "stk" [00F91690]  (ERROR!!!)
+{
+	 canary1 = -1737075662
+	 size = 0
+	 capacity = 24
+	 data[24 elem.] = [00F944B0]
+		 data_canary1 = -1416824409
+		   [0] = -999    (POISON?) 
+		   [1] = -999    (POISON?) 
+		   [2] = -999    (POISON?) 
+		   [3] = -999    (POISON?) 
+		   [4] = -999    (POISON?) 
+		   [5] = -999    (POISON?) 
+		   [6] = -999    (POISON?) 
+		   [7] = -999    (POISON?) 
+		   [8] = -999    (POISON?) 
+		   [9] = -999    (POISON?) 
+		   [10] = -999    (POISON?) 
+		   [11] = -999    (POISON?) 
+		   [12] = -999    (POISON?) 
+		   [13] = -999    (POISON?) 
+		   [14] = -999    (POISON?) 
+		   [15] = -999    (POISON?) 
+		   [16] = -999    (POISON?) 
+		   [17] = -999    (POISON?) 
+		   [18] = -999    (POISON?) 
+		   [19] = -999    (POISON?) 
+		   [20] = -999    (POISON?) 
+		   [21] = -999    (POISON?) 
+		   [22] = -999    (POISON?) 
+		   [23] = -999    (POISON?) 
+		 data_canary2 = -1416824409
+	 canary2 = -1412567278
+
+	 hash = -6763
 	 error_number = UNDERFLOW_ERR: can't pop an element, stack is empty
 
 }

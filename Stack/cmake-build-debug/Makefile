@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named equation
+# Target rules for targets named stack
 
 # Build rule for target.
-equation: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 equation
-.PHONY : equation
+stack: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 stack
+.PHONY : stack
 
 # fast build rule for target.
-equation/fast:
-	$(MAKE) -f CMakeFiles\equation.dir\build.make CMakeFiles/equation.dir/build
-.PHONY : equation/fast
+stack/fast:
+	$(MAKE) -f CMakeFiles\stack.dir\build.make CMakeFiles/stack.dir/build
+.PHONY : stack/fast
 
 stack.obj: stack.c.obj
 
@@ -128,7 +128,7 @@ stack.obj: stack.c.obj
 
 # target to build an object file
 stack.c.obj:
-	$(MAKE) -f CMakeFiles\equation.dir\build.make CMakeFiles/equation.dir/stack.c.obj
+	$(MAKE) -f CMakeFiles\stack.dir\build.make CMakeFiles/stack.dir/stack.c.obj
 .PHONY : stack.c.obj
 
 stack.i: stack.c.i
@@ -137,7 +137,7 @@ stack.i: stack.c.i
 
 # target to preprocess a source file
 stack.c.i:
-	$(MAKE) -f CMakeFiles\equation.dir\build.make CMakeFiles/equation.dir/stack.c.i
+	$(MAKE) -f CMakeFiles\stack.dir\build.make CMakeFiles/stack.dir/stack.c.i
 .PHONY : stack.c.i
 
 stack.s: stack.c.s
@@ -146,7 +146,7 @@ stack.s: stack.c.s
 
 # target to generate assembly for a file
 stack.c.s:
-	$(MAKE) -f CMakeFiles\equation.dir\build.make CMakeFiles/equation.dir/stack.c.s
+	$(MAKE) -f CMakeFiles\stack.dir\build.make CMakeFiles/stack.dir/stack.c.s
 .PHONY : stack.c.s
 
 test_stack.obj: test_stack.c.obj
@@ -155,7 +155,7 @@ test_stack.obj: test_stack.c.obj
 
 # target to build an object file
 test_stack.c.obj:
-	$(MAKE) -f CMakeFiles\equation.dir\build.make CMakeFiles/equation.dir/test_stack.c.obj
+	$(MAKE) -f CMakeFiles\stack.dir\build.make CMakeFiles/stack.dir/test_stack.c.obj
 .PHONY : test_stack.c.obj
 
 test_stack.i: test_stack.c.i
@@ -164,7 +164,7 @@ test_stack.i: test_stack.c.i
 
 # target to preprocess a source file
 test_stack.c.i:
-	$(MAKE) -f CMakeFiles\equation.dir\build.make CMakeFiles/equation.dir/test_stack.c.i
+	$(MAKE) -f CMakeFiles\stack.dir\build.make CMakeFiles/stack.dir/test_stack.c.i
 .PHONY : test_stack.c.i
 
 test_stack.s: test_stack.c.s
@@ -173,7 +173,7 @@ test_stack.s: test_stack.c.s
 
 # target to generate assembly for a file
 test_stack.c.s:
-	$(MAKE) -f CMakeFiles\equation.dir\build.make CMakeFiles/equation.dir/test_stack.c.s
+	$(MAKE) -f CMakeFiles\stack.dir\build.make CMakeFiles/stack.dir/test_stack.c.s
 .PHONY : test_stack.c.s
 
 # Help Target
@@ -182,7 +182,7 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... equation
+	@echo ... stack
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... stack.obj

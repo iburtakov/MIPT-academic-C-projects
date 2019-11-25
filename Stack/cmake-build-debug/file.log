@@ -19,12 +19,12 @@ stack_set_size:
 	error_number = 0
 
 stack_hash:
-	hash = -8579
+	hash = -7981
 
 stack_ok:
 
 stack_hash:
-	hash = -8579
+	hash = -7981
 	stack_ok: no errors detected
 	stack is successfully created
 
@@ -32,7 +32,7 @@ stack_hash:
 stack_ok:
 
 stack_hash:
-	hash = -8579
+	hash = -7981
 	stack_ok: no errors detected
 
 stack_push:
@@ -40,18 +40,18 @@ stack_push:
 	size = 1
 
 stack_hash:
-	hash = -8634
+	hash = -8036
 
 stack_ok:
 
 stack_hash:
-	hash = -8634
+	hash = -8036
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = -8634
+	hash = -8036
 	stack_ok: no errors detected
 
 stack_push:
@@ -59,18 +59,18 @@ stack_push:
 	size = 2
 
 stack_hash:
-	hash = -8721
+	hash = -8123
 
 stack_ok:
 
 stack_hash:
-	hash = -8721
+	hash = -8123
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = -8721
+	hash = -8123
 	stack_ok: no errors detected
 
 stack_push:
@@ -78,18 +78,18 @@ stack_push:
 	size = 3
 
 stack_hash:
-	hash = -8812
+	hash = -8214
 
 stack_ok:
 
 stack_hash:
-	hash = -8812
+	hash = -8214
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = -8812
+	hash = -8214
 	stack_ok: no errors detected
 
 stack_clear:
@@ -97,37 +97,37 @@ stack_clear:
 	size = 0
 
 stack_hash:
-	hash = -8579
+	hash = -7981
 
 stack_ok:
 
 stack_hash:
-	hash = -8579
+	hash = -7981
 	stack_ok: no errors detected
 	stack successfully cleared
 
 stack_ok:
 
 stack_hash:
-	hash = -8579
+	hash = -7981
 	stack_ok: no errors detected
 
 stack_ok:
 
 stack_hash:
-	hash = -8579
+	hash = -7981
 	stack_ok: no errors detected
 
 stack_pop:
 
 stack_ok:
 					 STACK_DUMP:
-Stack "stk" [00F61690]  (ERROR!!!)
+Stack "stk" [00FB1690]  (ERROR!!!)
 {
 	 canary1 = -1737075662
 	 size = 0
 	 capacity = 8
-	 data[8 elem.] = [00F616C0]
+	 data[8 elem.] = [00FB16C0]
 		 data_canary1 = -1416824409
 		   [0] = -999    (POISON?) 
 		   [1] = -999    (POISON?) 
@@ -140,7 +140,7 @@ Stack "stk" [00F61690]  (ERROR!!!)
 		 data_canary2 = -1416824409
 	 canary2 = -1412567278
 
-	 hash = -8579
+	 hash = -7981
 	 error_number = UNDERFLOW_ERR: can't pop an element, stack is empty
 
 }

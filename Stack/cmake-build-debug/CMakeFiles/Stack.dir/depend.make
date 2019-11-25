@@ -4,3 +4,6 @@
 CMakeFiles/Stack.dir/stack.c.obj: ../stack.c
 CMakeFiles/Stack.dir/stack.c.obj: ../stack.h
 
+CMakeFiles/Stack.dir/test_stack.c.obj: ../stack.h
+CMakeFiles/Stack.dir/test_stack.c.obj: ../test_stack.c
+

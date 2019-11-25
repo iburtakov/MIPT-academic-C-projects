@@ -15,7 +15,7 @@
 void test_stack_create(int n){
     MODULE(n);
 
-    Stack *stk = stack_create("log_file.txt", "stk");
+    Stack *stk = stack_create("file.log", "stk");
 
     unit_test(1, stack_ok(stk), 0);
 
@@ -25,7 +25,7 @@ void test_stack_create(int n){
 void test_stack_set_size(int n){
     MODULE(n);
 
-    Stack *stk  = stack_create("log_file.txt", "stk");
+    Stack *stk  = stack_create("file.log", "stk");
 
     data_t x = 0;
 
@@ -61,7 +61,7 @@ void test_stack_set_size(int n){
 void test_stack_push_pop(int n){
     MODULE(n);
 
-    Stack *stk  = stack_create("log_file.txt", "stk");
+    Stack *stk  = stack_create("file.log", "stk");
 
     data_t x = 0;
 
@@ -90,7 +90,7 @@ void test_stack_push_pop(int n){
 void test_stack_hash(int n){
     MODULE(n);
 
-    Stack *stk = stack_create("log_file.txt", "stk");
+    Stack *stk = stack_create("file.log", "stk");
 
     long int hash = stk->hash;
 
@@ -119,7 +119,7 @@ void test_stack_hash(int n){
 void test_stack_ok(int n){
     MODULE(n);
 
-    Stack *stk = stack_create("log_file.txt", "stk");
+    Stack *stk = stack_create("file.log", "stk");
 
     free(stk->data);
 
@@ -131,7 +131,7 @@ void test_stack_ok(int n){
 
     stack_destroy(stk);
 
-    stk = stack_create("log_file.txt", "stk");
+    stk = stack_create("file.log", "stk");
 
     *(char*)(stk->data + STACK_INIT_SIZE) = 37;
 
@@ -141,7 +141,7 @@ void test_stack_ok(int n){
 
     stack_destroy(stk);
 
-    stk = stack_create("log_file.txt", "stk");
+    stk = stack_create("file.log", "stk");
 
     stk->data[sizeof(stack_data_canary) / 2] = 25;
 
@@ -151,7 +151,7 @@ void test_stack_ok(int n){
 
     stack_destroy(stk);
 
-    stk = stack_create("log_file.txt", "stk");
+    stk = stack_create("file.log", "stk");
 
     stk->capacity = -7;
 
@@ -165,7 +165,7 @@ void test_stack_ok(int n){
 void test_stack_clear(){
     MODULE(6);
 
-    Stack *stk  = stack_create("log_file.txt", "stk");
+    Stack *stk  = stack_create("file.log", "stk");
 
     stack_push(stk, 1);
 
@@ -192,7 +192,7 @@ void test_stack_clear(){
 /*
 void test_stack_create(){
 	MODULE(1);
-	Stack *stk = stack_create("log_file.txt", "stk");
+	Stack *stk = stack_create("file.log", "stk");
 	unit_test(1, stack_ok(stk), 0);
 	stack_destroy(stk);
 }
@@ -200,15 +200,12 @@ void test_stack_create(){
 
 int main(){
 
-    Stack *stk  = stack_create("log_file.txt", "stk");
-    stack_dump(stk);
-    stack_destroy(stk);
-
     test_stack_create(1);
     test_stack_set_size(2);
     test_stack_push_pop(3);
     test_stack_hash(4);
     test_stack_ok(5);
     test_stack_clear(6);
+
     return 0;
 }

@@ -4,7 +4,7 @@ project(stack)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(equation stack.c test_stack.c stack.h)
+add_executable(stack stack.c test_stack.c stack.h)
 
 
 
